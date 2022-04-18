@@ -3,21 +3,34 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: auto;
     padding: 50px;
-    background: linear-gradient(90deg, rgba(100, 84, 106, 1) 0%, rgba(100, 84, 106, 0.9) 35%, rgba(100, 84, 106, 0.6) 100%);
+    background: linear-gradient(90deg, rgba(235,95,74,0.85) 0%, rgba(235,95,74,0.95) 45%, rgba(235,95,74,1) 100%);
     color: white;
 }
 
 .headerKontakt {
     padding: 15px;
-    width: 50%;
+    width: 60%;
+}
+
+.headerKontakt h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.headerKontakt h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1.8px;
 }
 
 .wrapper_kontaktPage img {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin-top: 60px;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 
@@ -25,13 +38,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
-    margin: auto;
-    padding: 15px;
-    border-radius: 15px;
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 6px;
     border: none;
-    box-shadow: 0 0 15px rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 form {
@@ -39,7 +52,7 @@ form {
     flex-direction: column;
     align-items: center;
     width: 90%;
-    padding: 15px;
+    padding: 10px;
 }
 
 label {
@@ -54,18 +67,32 @@ input {
     height: 35px;
     font-size: 17px;
     outline: none;
-    border-radius: 5px;
+    border-radius: 3px;
     border: none;
     background: rgb(235, 228, 228);
+}
+
+.name_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.vorname_wrapper {
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.nachname_wrapper {
+    flex-direction: column;
+    margin-left: 5px;
 }
 
 textarea {
     width: 100%;
     margin: 5px 0;
     font-size: 17px;
-    text-align: center;
     outline: none;
-    border-radius: 5px;
+    border-radius: 3px;
     border: none;
     background: rgb(235, 228, 228);
 }
@@ -79,17 +106,21 @@ input[type=submit]{
     color: #fff;
     background-color: black;
     border: 1px solid white;
-    font-weight: bold;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    transition: all 0.3s;
+
+    
 }
 
+
 input[type=submit]:hover{
-    color: white;
-    background-color: rgb(82, 87, 94);;
-    font-weight: bold;
-    opacity: 0.9;
+    color: rgba(235,95,74,0.8);
+    border-color: rgba(235,95,74,0.8);
     transform: scale(1.1);
-    transition-duration: 1.5s;
+    
 }
 
 @media screen and (max-width:800px) {

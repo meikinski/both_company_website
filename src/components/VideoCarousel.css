@@ -1,73 +1,90 @@
-.CarouselWrapper {
+.video_wrapper {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 100vh;
-    display: flex;
-    background: linear-gradient(90deg, rgba(100, 84, 106, 1) 0%, rgba(100, 84, 106, 0.9) 35%, rgba(100, 84, 106, 0.6) 100%);
-
+    background: linear-gradient(-90deg, rgba(235,95,74,0.8) 0%, rgba(235,95,74,0.9) 45%, rgba(235,95,74,0.95) 100%);
+    color: white;
+    padding-left: 80px; 
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
-.VideoCarousel {
+
+.videosection_header {
     display: flex;
-    width: 100%;
     margin: auto;
     justify-content: center;
-    transform: scale(90%);
-    transition: 1.5s;
+    letter-spacing: 1.9px;
+    width: 30%; 
+    padding-left: 35px;
+
 }
 
-.VideoCarousel--zoom {
-    opacity: 1;
-    transform:  scale(100%);
-    transition: 1.5s;
+.videosection_header h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.8px;
 }
 
-.carousel-control-prev {
-    height: auto;
+.videosection_content_macbook {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 30px 50px 40px;
 }
 
-.carousel-control-next {
-    height: auto;
+.videosection_content_mobile {
+    display: none;
 }
 
-.carousel .carousel-control-prev-icon {
-    visibility: hidden;
-    justify-content: center;
-}
-
-.carousel:hover .carousel-control-prev-icon {
-    visibility: visible;
-}
-
-.carousel .carousel-control-next-icon {
-    visibility: hidden;
-}
-
-.carousel:hover .carousel-control-next-icon {
-    visibility: visible;
+.video {
+    width: 100%;
+    height: 100%;
+    
 }
 
 
 
-@media only screen and (max-width: 600px) {
-    .CarouselWrapper {
-        width: 100%;
-        height: 90vh;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .VideoCarousel {
-        width: 60%;
-        display: flex;
-        justify-content: center;
+
+
+
+@media only screen and (max-width: 1200px) {
+    .video_wrapper {
+        flex-direction: column;
         height: auto;
-        margin: auto;
-        padding: 0px 45px 45px 45px;
-}
-    .CarouselContent {
-        padding-top: 45px;
-        margin: auto;
+    }
+
+    .videosection_header {
+        width: 70%;
         text-align: center;
         justify-content: center;
-        width: 80%;
+        padding-top: 45px;
+        padding-left: 0px;
+    }
+
+    .videosection_content {
+        
+        width: 100%;
+        justify-content: center;
+        padding: 0px;
+        
+    }
+
+    @media only screen and (max-width: 860px) {
+        .videosection_content_macbook {
+            display: none;
+        }
+
+        .videosection_content_mobile {
+            display: flex;
+            width: 70%;
+            margin: auto;
+            
+        }
+
+       
+
 }
+
 }

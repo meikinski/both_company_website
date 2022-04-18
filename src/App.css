@@ -13,11 +13,12 @@ Allgemein
 
   p {
     letter-spacing: 1.3px; 
+    font-size: 16px;
 }
 
 /*
 ----------
-Heading
+Allgemein Headings
 ----------*/
 h1, h2, h3, h4, h5{
   text-transform: uppercase;
@@ -31,12 +32,11 @@ letter-spacing: 1.3px;
 
 /*
 -----------------
-Black Section
+Home Black Background Section
 -----------------*/
 .section_black {
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,1);
   color: white;
-  
   
 }
 
@@ -47,25 +47,19 @@ Black Section
   flex-wrap: wrap;
   align-items: center;
   margin: 0px 100px;
-  transform: scale(90%);
-  transition: 1.5s;  
+  
 }
 
+
 .angebot_wrapper {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  transform: scale(90%);
-  transition: 1.5s;  
+  overflow: auto;
 }
 
-.angebot_wrapper--zoom {
-  opacity: 1;
-  transform:  scale(100%);
-  transition: 1.5s;
-}
 
 #angebot_picture {
   height: 100%;
@@ -79,19 +73,17 @@ Black Section
 }
 
 
-.wrapper--zoom {
-  opacity: 1;
-  transform:  scale(100%);
-  transition: 1.5s;
-}
+
 
 .section_logo {
-  width: 50%;
+  height: auto;
+  width: 45%;
   color: black;
-  padding: 0px 35px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  opacity: 0.8; 
+  filter: grayscale(100%);
+  margin: 0;
  
 }
 
@@ -109,42 +101,57 @@ Black Section
 
 .section_content_title {
   text-align: center;
-  padding: 15px 0px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  
   
 }
 
 .section_content_title:after {
-  
     content: "";
     display: block;
     width: 30%;
     height: 1px;
-    background-color: white;
-    margin: 1rem auto;
+    background-color: rgb(235, 95, 74);
+    margin: 1.5rem auto;
 
 }
 
+/*
+-----------
+Button
+----------*/
+
 .button_black {
-  border-radius: 4px;
-  background: transparent;
-  padding: 10px 20px;
-  margin-top:25px;
-  font-size: 16px;
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
-  border: 1px solid white;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    margin: 30px;
+    text-align:center;
+    letter-spacing: 1.2px;
+    border: 1px solid white;
+    background-size: 400% 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
 
 
 .button_black:hover {
-  color: white;
-  background-color: black;
-  font-weight: bold;
-  opacity: 0.9;
-  transform: scale(1.1);
-  transition-duration: 1.5s;
+    border-color: rgb(235, 95, 74);
+    color:rgb(235, 95, 74);
+    transition: all .4s ease-in-out;
 }
+
+.button_black:focus {
+  outline: none;
+}
+
 
 /*
 -------------------------------------------------------
@@ -187,10 +194,8 @@ MEDIA QUERIES
   }
   
     .section_logo {
-      height: 30%;
-      width: 80%;
-      padding-top: 40px;
-      padding-bottom: 35px;
+      width: 100%;
+
     }
     .section_content {
       height: 50%;

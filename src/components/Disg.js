@@ -24,7 +24,7 @@ export const Disg = ({ imageSrc, title, text }) => {
                <button className='button_black'>Erfahre mehr</button>
                 </NavLink>
         </div>
-        <img src={imageSrc} alt="Logo" className='section_logo' id='disg_logo'/>
+        <img src={imageSrc} alt="Logo" className='section_logo' id='angebot_picture'/>
     </div>
     </div>
   )

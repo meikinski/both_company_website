@@ -1,5 +1,6 @@
 import React from 'react'
 import { Routes, Route, NavLink } from "react-router-dom";
+import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -9,12 +10,17 @@ import Angebot from './pages/Angebot';
 import './App.css';
 import Logo from "./assets/Logo.png"
 import KontaktPage from './pages/KontaktPage';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
+
+  
+
   return (
     <div className="App">
       <Navbar imageSrc={Logo}/>
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/Home' element={<Home />}></Route>
@@ -23,6 +29,7 @@ function App() {
         <Route path='/angebot' element={<Angebot />}></Route>
         <Route path='/kontakt' element={<KontaktPage />}></Route>
       </Routes>
+
       <Footer />
       
     </div>

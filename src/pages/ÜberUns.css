@@ -1,7 +1,17 @@
+/*
+-----------------
+ÜBER UNS SECTION
+-----------------*/
+
+
 .ueberuns_section_wrapper{
     padding-bottom: 60px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 1);
     color: white;
+}
+
+.ueberuns_section_wrapper p {
+    color:rgb(180, 180, 180);
 }
 
 .section_wrapper{
@@ -17,27 +27,48 @@
         display: block;
         width: 30%;
         height: 1px;
-        background-color: white;
+        background-color: rgba(235,95,74,1);
         margin: 1rem auto;
-    
+}
+
+.section_wrapper h3:after {
+    content: "";
+        display: block;
+        width: 30%;
+        height: 1px;
+        background-color: rgba(235,95,74,1);
+        margin: 1rem auto;
 }
 
 #section_wrapper {
     flex-direction: row;
 }
 
-.section_wrapper h2, h3 {
+.section_wrapper h2 {
     margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.8px;
 
+}
+
+.section_wrapper h3 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1.8px;
 }
 
 .section_wrapper p{
     letter-spacing: 1.5px;
 }
+/*
+-----------------
+CARDS SECTION
+-----------------*/
 
 .cards_wrapper {
-    
-    background: linear-gradient(90deg, rgba(235,95,74,1) 0%, rgba(235,95,74,0.8) 35%, rgba(235,95,74,0.6) 100%);
+    background: linear-gradient(-90deg, rgba(235,95,74,0.8) 0%, rgba(235,95,74,0.9) 45%, rgba(235,95,74,0.95) 100%);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -54,14 +85,13 @@
     text-align: left;
     background-color: transparent;
     color: white;
-    
 }
 
 .card img {
-    width: 70%;
-    height: auto;
-    
+    width: 60%;
+    height: auto;   
 }
+
 .card ul {
     margin-top: 55px;
 }
@@ -70,7 +100,11 @@
     list-style: none;
     margin: 1rem;
     letter-spacing: 1.5px;
+}
 
+.icon {
+    color: black;
+    background-color: transparent;
 }
 
 .card_content h4 {
@@ -80,47 +114,29 @@
 .card_content h6 {
     letter-spacing: 1.5px;
     margin-bottom: 2rem;
+    color:rgb(101, 99, 99)
 }
 
 .card_content p {
-    letter-spacing: 1.5px;
-    
+    letter-spacing: 1.5px;    
 }
 
-.button_more {
-border-radius: 4px;
-  background: transparent;
-  padding: 10px 20px;
-  margin-top:25px;
-  font-size: 16px;
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
-  border: 1px solid white;
-  display: flex;
-  margin: 20px auto;
+#button_überuns {
+    width: 200px;
+    border-radius: 10px;
+    border: black;
+    background-image: linear-gradient(to right, #202226, #31221e, #868382, #888382);
+
 }
 
-.button_more:hover {
-    color: white;
-  background-color: black;
-  font-weight: bold;
-  opacity: 0.9;
-  transform: scale(1.1);
-  transition-duration: 1.5s;color: white;
-  background-color: black;
-  font-weight: bold;
-  opacity: 0.9;
-  transform: scale(1.1);
-  transition-duration: 1.5s;
-}
 
-/*WERTE SECTION*/
+/*
+--------------
+WERTE SECTION
+---------------*/
 .werte_cards_wrapper {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
-    
-    
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;  
 }
 
 .werte_content {
@@ -129,7 +145,6 @@ border-radius: 4px;
     flex-wrap: wrap;
     justify-content: center;
     padding: 25px;
-    
 }
 
 .werte_header{
@@ -140,14 +155,20 @@ border-radius: 4px;
     letter-spacing: 1.9px;
 }
 
+.werte_header h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
 .werte_header h2:after {
         content: "";
         display: block;
         width: 30%;
         height: 1px;
-        background-color: white;
-        margin: 1rem auto;
-    
+        background-color: rgba(235,95,74,1);
+        margin: 1rem auto; 
 }
 
 .werte_card {
@@ -160,6 +181,9 @@ border-radius: 4px;
 
 .werte_card h5 {
     margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: rgba(235,95,74,1)
 }
 
 .icon {
@@ -170,20 +194,22 @@ border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
 }
 .werte_card img {
     max-width: 50%;
-    height: 50%;
+    height: 50%;   
+}
+
+.werte_card p {
+    color:rgb(180, 180, 180);
     
 }
 
-
-.werte_card p {
-    color: rgb(116, 113, 113);
-}
-
-
-/*Media Queries*/
+/*
+-------------
+Media Queries
+--------------*/
 @media only screen and (max-width: 800px) {
     .cards_wrapper {
         display: flex;
@@ -203,3 +229,5 @@ border-radius: 4px;
         
     }
 }
+
+

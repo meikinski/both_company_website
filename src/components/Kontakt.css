@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(100, 84, 106, 1) 0%, rgba(100, 84, 106, 0.9) 35%, rgba(100, 84, 106, 0.6) 100%);
-    height: 85vh;
+    background: linear-gradient(-90deg, rgba(235,95,74,0.8) 0%, rgba(235,95,74,0.9) 45%, rgba(235,95,74,0.95) 100%);
+    height: 100vh;
     color: white;
 }
 
@@ -14,6 +14,11 @@
     margin: auto;
     padding: 25px 15px;
     text-align: center;
+}
+
+.text_wrapper h4 {
+  font-weight: 700;
+  font-size: 1.8rem;
 }
 
 .text_wrapper h5 {
@@ -36,9 +41,86 @@
 
 .btn_kontakt:hover {
     color: white;
-    background-color: rgb(82, 87, 94);;
+    background-color: rgb(82, 87, 94);
     font-weight: bold;
     opacity: 0.9;
     transform: scale(1.1);
     transition-duration: 1.5s;
 }
+
+.btn {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 50px;
+    display: inline-block;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+  }
+  
+  .btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+  }
+  
+  /* Pseudo elements for icons */
+  .btn:before {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    
+  }
+  
+  
+  /* Icon separator */
+  .btn-sep {
+    padding: 20px 60px 20px 100px;
+  }
+  
+  .btn-sep:before {
+    background: rgba(0,0,0,0.15);
+  }
+
+  .btn-4 {
+    background: #191a1b;
+    color: #fff;
+  }
+  
+  .btn-4:hover {
+    background: #4d4d4d;
+  }
+  
+  .btn-4:active {
+    background: #4d4d4d;
+    top: 2px;
+  }
+  
+  .btn-4:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
+
+  .icon-send:before {
+    content: "\f1d8";
+  }
+
+  

@@ -1,0 +1,200 @@
+.counter_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 35px 0px;
+    padding-bottom: 60px;
+    background: linear-gradient(-90deg, rgba(235,95,74,0.8) 0%, rgba(235,95,74,0.9) 45%, rgba(235,95,74,0.9) 100%);
+    color: white;
+}
+
+.counter {
+    display: flex;
+    font-size: 36px;
+    width: 35%;
+    height: 200px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 6px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgb(249, 246, 246);
+}
+
+.counter_content {
+    margin: auto;
+    font-weight: 700;
+}
+
+.counter_content h2 {
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.disg_section_wrapper {
+    display: flex;
+    flex-direction: column;
+background-color: black;
+    text-align: center;
+    padding: 80px 40px;
+   color: white;
+    
+}
+
+
+.disg_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(180, 180, 180);;
+    padding: 40px 0px;
+    
+}
+
+.disg_section_logo {
+    width: 40%;
+    height: 100%;
+}
+
+.disg_section_content {
+    width: 40%;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+
+.disg_section_heading h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.disg_section_heading h2:after {
+        content: "";
+        display: block;
+        width: 15%;
+        height: 2px;
+        background-color: rgba(235, 95, 74, 0.9);
+        margin: 1.5rem auto; 
+       
+}
+
+
+.disg_section_types {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+     
+}
+
+.disg_type_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+.disg_type_card h5 {
+    margin-bottom: 30px;
+    padding-top: 25px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#green {
+    background-color: rgba(14, 150, 123, 0.9);
+}
+
+#red {
+    background-color: rgba(235, 95, 74, 0.9);
+}
+
+#blue {
+    background-color: rgba(24, 159, 193, 0.9);
+}
+
+#yellow {
+    background-color: rgba(248, 203, 102, 0.9);
+}
+
+.disg_einsatz_wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.disg_einsatz_heading {
+    color: white;
+    padding-top: 40px;
+    width: 80%;
+    
+}
+
+.disg_einsatz_heading h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.disg_einsatz {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 0px; 
+    color: rgba(235, 95, 74, 0.8);
+    
+}
+
+.disg_einsatz_card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 250px;
+    text-align: center;
+    margin: 8px;
+    border: 2px solid white;
+    border-radius: 6px;
+    
+    
+}
+
+.disg_einsatz_card:hover {
+    opacity: 0.8;
+    background-color: black;
+    transition: 0.9s;
+    transform: scale(1.05);
+}
+
+.disg_einsatz_card h5 {
+    margin-top: 20%;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.disg_einsatz_card_favicon {
+   padding-top: 15px;
+   padding-left: 15px;
+   height: 60px;
+   width: 35px;
+}
+
+
+
+
+.disg_einsatz_card_heading {
+    
+}

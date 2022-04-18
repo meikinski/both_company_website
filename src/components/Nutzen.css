@@ -1,10 +1,8 @@
 .nutzen_wrapper {
     display: flex;
     flex-direction: row;
-    background: linear-gradient(90deg, rgba(100, 84, 106, 1) 0%, rgba(100, 84, 106, 0.9) 35%, rgba(100, 84, 106, 0.6) 100%);
-
+    background: linear-gradient(-90deg, rgba(235,95,74,0.8) 0%, rgba(235,95,74,0.9) 45%, rgba(235,95,74,0.95) 100%);
     color: white;
-    opacity: 0.9;
     padding-left: 80px; 
     padding-top: 45px;
     padding-bottom: 45px;
@@ -16,7 +14,14 @@
     padding-left: 45px;
     justify-content: center;
     letter-spacing: 1.9px;
-    width: 25%; 
+    width: 30%; 
+    
+}
+
+.nutzensection_header h2 {
+    font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1.8px;
 }
 
 .nutzensection_content {
@@ -34,21 +39,33 @@
     border: 2px solid white;
     border-radius: 6px;
     margin: 15px; 
+    background-color: black;
+
+}
+
+.nutzensection_card_title {
+    display: flex;
+    flex-direction: column;
+}
+.nutzensection_card_title:after {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 1px;
+    background-color: rgb(235, 95, 74);
+    margin: 1.5rem auto;
+
 }
 
 .nutzensection_card:hover {
-    opacity: 0.8;
-    background-color: black;
+    background-color: rgb(42, 41, 41);
     transition: 0.9s;
     transform: scale(1.05);
 }
 
-.section_card p {
-    margin-top: 15px;
-}
-
-.icon {
-    margin-bottom: 15px;
+.nutzensection_card_favicon {
+    height: 50px;
+    width: 20px;
 }
 
 /*Media Queries*/
@@ -81,37 +98,20 @@
     }
 }
 
-@media only screen and (max-width: 900px){
-    .nutzensection_content {
-        justify-content: center;
-    }
-    .nutzensection_card {
-        width: 90%;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .nutzensection_header {
-        width: 15%;
-    }
-}
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 920px) {
     .nutzen_wrapper {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 40px 0px;
+        padding: 0px;
     }
 
     .nutzensection_header {
-        display: flex;
-        width: 80%;
-        align-items: center;
-        text-align: center;  
+        width: 100%;
     }
 
     .nutzensection_content {
         width: 100%;
     }
-
 }

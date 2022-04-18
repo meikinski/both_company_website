@@ -1,5 +1,5 @@
 import './Nutzen.css'
-import {BsExclamationCircle} from "react-icons/bs";
+import Logo from '../assets/favicin-image.png'
 
 export default function Nutzen() {
     
@@ -11,28 +11,29 @@ export default function Nutzen() {
         </div>
         <div className="nutzensection_content">
             <div className="nutzensection_card">
-                <BsExclamationCircle className='icon'/>
+                <div className='nutzensection_card_title'>
+                <img src={Logo} alt="Favicon" className='nutzensection_card_favicon'/>
                 <h4>Argument</h4>
-                <div>_______</div>
+                </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                 optio, eaque rerum! </p>
             </div>
             <div className="nutzensection_card">
-                <BsExclamationCircle className='icon'/>
+                <div className='nutzensection_card_title'>
+                <img src={Logo} alt="Favicon" className='nutzensection_card_favicon'/>
                 <h4>Argument</h4>
-                <div>_______</div>
+                </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                 optio, eaque rerum!</p>
             </div>
             <div className="nutzensection_card">
-                <div className='section_card_header'>
-                <BsExclamationCircle className='icon'/>
+                <div className='nutzensection_card_title'>
+                <img src={Logo} alt="Favicon" className='nutzensection_card_favicon'/>
                 <h4>Argument</h4>
-                <div>_______</div>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
@@ -40,9 +41,11 @@ export default function Nutzen() {
                 optio, eaque rerum! </p>
             </div>
             <div className="nutzensection_card">
-                <BsExclamationCircle className='icon'/>
+                <div className='nutzensection_card_title'>
+                <img src={Logo} alt="Favicon" className='nutzensection_card_favicon'/>
                 <h4>Argument</h4>
-                <div>_______</div>
+                </div>
+                
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium

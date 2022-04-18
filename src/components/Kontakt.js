@@ -8,7 +8,7 @@ export default function Kontakt() {
             <h4>Du findest unser Angebot spannend und willst mit uns arbeiten?</h4>
            <h5>Dann schick eine Mail oder ruf uns an.</h5>
            <NavLink to="/kontakt">
-           <button className='btn_kontakt'>Kontakt</button></NavLink>
+           <button className='btn btn-4 btn-sep icon-send'>Kontakt</button></NavLink>
         </div>
     </div>    
     )

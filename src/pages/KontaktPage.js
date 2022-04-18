@@ -12,13 +12,21 @@ export default function Kontakt_Page() {
         </div>
         <div class="container">
         <form action="">
-            <label for="name">Dein Name:</label>
-            <input type="text" name="name" id="name" required/>
-            <label for="email">Deine Email-Adresse:</label>
+            <div class="name_wrapper">
+            <div className='vorname_wrapper'>
+            <label for="vorname">Vorname:</label>
+            <input type="text" name="vorname" id="vorname" required/>
+            </div>
+            <div className='nachname_wrapper'>
+            <label for="nachname">Nachname:</label>
+            <input type="text" name="nachname" id="nachname" required/>
+            </div>
+            </div>
+            <label for="email">Email-Adresse:</label>
             <input type="email" name="email" id="email" required/>
             <label for="message">Deine Nachricht an uns:</label>
             <textarea name="message" id="message" cols="30" rows="8" ></textarea>
-            <input type="submit" value="Send"/>
+            <input type="submit" value="Senden"/>
         </form>
        </div> 
        </div>   

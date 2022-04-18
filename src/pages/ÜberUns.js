@@ -1,5 +1,6 @@
 import Hero from "../components/Hero"
 import { useState } from "react"
+import { NavLink } from "react-router-dom"
 import './ÜberUns.css'
 import "../components/Hero.css"
 import Gründerinnen from "../assets/Gründerinnen.png";
@@ -23,6 +24,7 @@ function ÜberUns() {
     return (
       <div className="app">
         <Hero imageSrc={Gründerinnen} title={<h1>Über Uns</h1>} title2={<p>A SUCCESSFUL TEAM BEATS WITH ONE HEART</p>} />
+        
         <div className="ueberuns_section_wrapper">
         <div className="section_wrapper">
         <h2>Unsere Story</h2>
@@ -39,9 +41,10 @@ Und für uns war klar: wir wollen das gemeinsam machen. Wir starten ein Business
         <p>Also haben wir uns auf die Suche gemacht. Auf die Suche nach unserem Warum, nach unseren Werten, nach denen wir arbeiten wollen und schnell wurde die Idee geboren: eine bewusste Wahrnehmung von mir und meinem Arbeitsumfeld, mit den unterschiedlichen Persönlichkeiten und unterschiedlichen Bedürfnissen, ist der Schlüssel für bessere Kommunikation und einen respektvollen und reflektierten Umgang miteinander. Und eine Möglichkeit, sich selbst stärker im Berufsleben zu positionieren und Teams erfolgreicher zu machen.
 Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der transparent und einfach verständlich ist, mit konkreten Tools &amp; Ideen, die jeder direkt anwenden kann.</p>
         <br></br>
+        
         <p>Dafür haben wir uns mit vielen Persönlichkeitstools auseinandergesetzt und sie getestet und uns daraufhin für das DiSG®-Persönlichkeitstool zertifizieren lassen und verschiedene Angebote entwickelt, dieses Tool und unsere Philosophie zu erklären, zu testen und anzuwenden.</p>
         <br></br>
-        <p>Und damit geht es los! Wir freuen uns auf den Austausch mit dir!</p>
+        <p><b>Und damit geht es los! Wir freuen uns auf den Austausch mit dir!</b></p>
         </div>
         </div>
         <div className="cards_wrapper">
@@ -54,21 +57,21 @@ Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der t
               <h6>Co-Founder</h6>
               <p>„Ich bin begeistert und kreiere Ideen, um andere zu inspirieren und mitzureißen, das treibt mich an.“</p>
               <br></br>
-              <button className="button_more" onClick={handleShowMoreAntje}>Mehr über mich</button>
+              <button className="button_black" id="button_überuns" onClick={handleShowMoreAntje}>Mehr über mich</button>
 
               {showMoreAntje && (
                 <>
               <ul>
-                <li>Zertifizierte DISG®-Trainerin</li>
-                <li>Master of Science mit Schwerpunkt Marketing</li>
-                <li>Bachelor of Commerce mit Schwerpunkt strategisches Marketing in Emmen (NL) und Tandil (ARG)</li>
+                <li>✓ Zertifizierte DISG®-Trainerin</li>
+                <li>✓ Master of Science mit Schwerpunkt Marketing</li>
+                <li>✓ Bachelor of Commerce mit Schwerpunkt strategisches Marketing in Emmen (NL) und Tandil (ARG)</li>
               </ul>
               <br></br>
               <p>Als Produktmanagerin in einem global tätigem Unternehmen habe ich in unzähligen Projekten mit Menschen gearbeitet. Hier fungiere ich als Vernetzungsstelle für verschiedene Fachbereiche, Abteilungen und Mitarbeiter. Dabei habe ich gelernt, dass das Wahrnehmen von Stärken, Schwächen und Bedürfnissen im Arbeitskontext ein wichtiger Erfolgsfaktor ist.</p>
               <br></br>
               <p>In den letzten 10 Jahren habe ich in vier Ländern gelebt und arbeite in einem internationalen Team. Dadurch habe ich ein breites Wissen über interkulturelle und vernetzte Zusammenarbeit.</p>
               <br></br>
-              <p>Kernkompetenzen: Lösungsorientiertes Denken  Empathie</p></>)}
+              <p>&raquo; <b>Kernkompetenzen: Lösungsorientiertes Denken  Empathie</b></p></>)}
             </div>
           </div>  
           <div className="card">
@@ -80,20 +83,20 @@ Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der t
               <h6>Co-Founder</h6>
               <p>“Wir haben mehr Potenzial, als wir uns zutrauen oder zeigen. Sich gegenseitig fordern und fördern, das treibt mich an.“</p>
               <br></br>
-              <button className="button_more" onClick={handleShowMoreLena}>Mehr über mich</button>
+              <button className="button_black" id="button_überuns" onClick={handleShowMoreLena}>Mehr über mich</button>
               {showMoreLena && (
                 <>
               <ul>
-                <li>Zertifizierte DISG®-Trainerin</li>
-                <li>Bachelor of Communication mit Schwerpunkt strategische Kommunikation in Groningen (NL), Göteborg (SWE) und Köln.</li>
-                <li>Gründungsmitglied und Partnerin in der Kreativagentur onliveline – Büro für Konzept und Kommunikation (live, online, hybrid, VR).</li>
+                <li>✓ Zertifizierte DISG®-Trainerin</li>
+                <li>✓ Bachelor of Communication mit Schwerpunkt strategische Kommunikation in Groningen (NL), Göteborg (SWE) und Köln.</li>
+                <li>✓ Gründungsmitglied und Partnerin in der Kreativagentur onliveline – Büro für Konzept und Kommunikation (live, online, hybrid, VR).</li>
               </ul>
               <br></br>
               <p>Seit 9 Jahren arbeite ich bei onliveline in der Kreation und Live-Kommunikationsberatung. Mein Schwerpunkt liegt hier vor allem auf dem Erzeugen von Inhalten - gemeinsam mit dem Kunden - und diese dann wirkungsvoll, verständlich und nachhaltig in Szene zu setzen.</p>
               <br></br>
               <p>Außerdem verantworte ich die Personalentwicklung unseres 8-köpfigen Teams.</p>
               <br></br>
-              <p>Kernkompetenzen: Kreativität &amp; Pragmatismus</p></>)}
+              <p>&raquo; <b>Kernkompetenzen: Kreativität &amp; Pragmatismus</b></p></>)}
             </div>
           </div>
           
@@ -132,12 +135,19 @@ Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der t
                 <p>Wir ermöglichen eine bewusste Selbstwahrnehmung, sowie verschiedene Ausprägungen und Verhaltenstendenzen von Kollegen und Kunden, zu verstehen. Dadurch schaffen wir Transparenz und ein positives Bewusstsein für Diversität, Bedürfnisse, Qualitäten, Erfolgs- sowie Konfliktpotenziale im Berufsleben.</p>
             </div>
             </div>
-
-
-
         </div>
-      
+        <div className='wrapper_kontakt' id='kontakt_überuns'>
+              <div className='text_wrapper'>
+                <h4>Du findest unser Angebot spannend und willst mit uns arbeiten?</h4>
+                <h5>Dann schick eine Mail oder ruf uns an.</h5>
+                
+                <NavLink to="/kontakt">
+                <button className='btn btn-4 btn-sep icon-send'>Kontakt</button></NavLink>
+              </div>
+            </div> 
+            
       </div>
+      
 
     );
   }

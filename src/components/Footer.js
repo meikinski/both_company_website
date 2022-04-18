@@ -5,17 +5,17 @@ import './Footer.css';
 
     const Footer = () => (
         <div className="footer">
-            <div className="contact">
-            <p><b>BOTH: COLOGNE</b></p>
-            <p>Adresse</p>
-            <p>Adresse</p>
-            <p>Mobil: +49 176 – 99 58 85 52 </p>
-            <p>Mail: info@both-cologne.de</p>
-            </div>
+            <address className="contact">
+            <b>BOTH: COLOGNE</b>
+            Genter Str. 19<br />
+            50672 Köln<br />
+            <a href="tel: +49176995852">+49 176 – 99 58 85 52</a>
+            <a href="mailto:info@both-cologne.de">info@both-cologne.de</a>
+            </address>
             <div className="social">
-            <p>Folge uns</p>
-            <a href='https://www.instagram.com/both_cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/stickers/50/000000/instagram-new--v2.png" classname="icon" alt=""/></a>
-            <a href='https://www.linkedin.com/company/both-cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/stickers/50/000000/linkedin.png" classname="icon" alt=""/></a>
+            <p><b>Folge uns</b></p>
+            <a href='https://www.instagram.com/both_cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/344/instagram-new.png" classname="icon" alt=""/></a>
+            <a href='https://www.linkedin.com/company/both-cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/452/linkedin.png" classname="icon" alt=""/></a>
             </div>
             <div className="about">
             
