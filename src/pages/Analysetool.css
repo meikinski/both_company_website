@@ -29,6 +29,7 @@
 .counter_content h2 {
     font-weight: 700;
     letter-spacing: 1.8px;
+    font-size: 2rem;
 }
 
 .disg_section_wrapper {
@@ -85,7 +86,7 @@ background-color: black;
 .disg_section_types {
     display: flex;
     flex-direction: row;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
      
 }
 
@@ -101,6 +102,7 @@ background-color: black;
     border-radius: 6px;
     color: white;
 }
+
 
 .disg_type_card h5 {
     margin-bottom: 30px;

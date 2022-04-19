@@ -16,7 +16,7 @@ export const Angebot = ({ imageSrc, title }) => {
                 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                 optio, eaque rerum! Provident similique accusantium nemo autem</p>
             <NavLink to="/angebot">
-            <button className='button_black'>Über uns</button>
+            <button className='button_black'>Angebot</button>
             </NavLink>
         </div>
     </div>

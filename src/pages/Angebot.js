@@ -1,18 +1,18 @@
 import { NavLink } from "react-router-dom";
-
 import "../components/Hero.css"
-import AngebotHeader from "../assets/Angebot.png";
 import Hero from "../components/Hero"
 import './Angebot.css'
 import Ort from '../assets/ort.png'
 import Datum from '../assets/datum.png'
 import Uhr from '../assets/uhr.png'
 import Kosten from '../assets/euro.png'
+import Workshop2 from '../assets/workshop_background1.jpg'
+
 
 function Angebot() {
     return (
       <div className="App">
-          <Hero imageSrc={AngebotHeader} title={<h1>Unser Angebot</h1>} title2={<p>Wie bin ich? Wie wirke ich? Wie handle ich? Und was bringt mir dieses Wissen im Arbeitsalltag?</p>} />
+          <Hero imageBlk={Workshop2} id="hero" title={<h1>Unser Angebot</h1>} title2={<p>Wie bin ich? Wie wirke ich? Wie handle ich? Und was bringt mir dieses Wissen im Arbeitsalltag?</p>} />
         <div className="workshop_wrapper">
           <div className="workshop_section">
             <h2>Workshop: "DiSG® &amp; ME"</h2>
