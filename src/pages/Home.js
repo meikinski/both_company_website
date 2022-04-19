@@ -1,5 +1,4 @@
 import '../App.css';
-import Köln_Home from "../assets/Köln Home.png"
 import Hero from "../components/Hero"
 import Story from '../components/Story';
 import Disg from '../components/Disg';
@@ -8,7 +7,6 @@ import Angebot from '../components/Angebot';
 import Nutzen from '../components/Nutzen';
 import Kontakt from '../components/Kontakt';
 import Angebot_Pic from '../assets/Workshop.jpg'
-import Disg_Logo from '../assets/Disg.png'
 import Both_white from '../assets/both_white.png'
 import Who from '../assets/whoami.jpg'
 import Cologne from '../assets/cologne.jpg';
