@@ -14,7 +14,7 @@ export const Disg = ({ imageSrc, title }) => {
                 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                 optio, eaque rerum! Provident similique accusantium nemo autem</p>
                 <NavLink to="/analysetool">
-               <button className='button_black'>Erfahre mehr</button>
+               <button className='button_black'>Analysetool</button>
                 </NavLink>
         </div>
         <img src={imageSrc} alt="Logo" className='section_logo' id='disg_picture'/>

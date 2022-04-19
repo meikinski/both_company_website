@@ -5,13 +5,14 @@ import { NavLink } from 'react-router-dom';
 import './Analysetool.css';
 import Disg_Logo from '../assets/Disg.png';
 import Favicon from '../assets/favicin-image.png';
+import Disg from '../assets/disg_header.jpg';
 
 
 function Analysetool() {
   
     return (
       <div className="App">
-        <Hero imageSrc={AnalysetoolPic} title={<h1>Das DiSG-Modell</h1>} title2={<p>Wir sind zertifiziert und gehören zum offiziellen Trainer Netzwerk des Wiley Verlags für DISG® Persönlichkeitsprofile.</p>}/>
+        <Hero imageBlk={Disg} title={<h1>Das DiSG-Modell</h1>} title2={<p>Wir sind zertifiziert und gehören zum offiziellen Trainer Netzwerk des Wiley Verlags für DISG® Persönlichkeitsprofile.</p>}/>
         <div className="counter_wrapper">
           <div className="counter">
           <div className='counter_content'>
@@ -60,42 +61,42 @@ function Analysetool() {
       <div className='disg_section_types'>
         <div className='disg_type_card' id="green">
           <h5>Dominant</h5>
-          <p>Entschlossen</p>
-          <p>Ergebnisorientiert</p>
-          <p>Risikobereit</p>
-          <p>Durchsetzungsstark</p>
-          <p>Konfliktbereit</p>
-          <p>Übernimmt Führung</p>
+          <p>Entschlossen</p><br></br>
+          <p>Ergebnisorientiert</p><br></br>
+          <p>Risikobereit</p><br></br>
+          <p>Durchsetzungsstark</p><br></br>
+          <p>Konfliktbereit</p><br></br>
+          <p>Übernimmt Führung</p><br></br>
           <p>Mag Herausforderungen</p>
         </div>
         <div className='disg_type_card' id="red">
           <h5>Initiativ</h5>
-          <p>Kreativ</p>
-          <p>Ideenreich</p>
-          <p>Offen</p>
-          <p>Begeisterungsfähig</p>
-          <p>Optimistisch</p>
-          <p>Unterhaltsam</p>
+          <p>Kreativ</p><br></br>
+          <p>Ideenreich</p><br></br>
+          <p>Offen</p><br></br>
+          <p>Begeisterungsfähig</p><br></br>
+          <p>Optimistisch</p><br></br>
+          <p>Unterhaltsam</p><br></br>
           <p>Arbeitet gern im Team</p>
         </div>
         <div className='disg_type_card' id="blue">
           <h5>Stetig</h5>
-          <p>Loyal</p>
-          <p>Hilfsbereit</p>
-          <p>Verlässlich</p>
-          <p>Geduldig</p>
-          <p>Guter Zuhörer</p>
-          <p>Teamfähig</p>
+          <p>Loyal</p><br></br>
+          <p>Hilfsbereit</p><br></br>
+          <p>Verlässlich</p><br></br>
+          <p>Geduldig</p><br></br>
+          <p>Guter Zuhörer</p><br></br>
+          <p>Teamfähig</p><br></br>
           <p>Arbeitet gern im Hintergrund</p>
         </div>
         <div className='disg_type_card' id="yellow">
           <h5>Gewissenhaft</h5>
-          <p>Qualitätsbewusst</p>
-          <p>Präzise</p>
-          <p>Diplomatisch</p>
-          <p>Analytisch</p>
-          <p> Kritisch</p>
-          <p>Distanziert</p>
+          <p>Qualitätsbewusst</p><br></br>
+          <p>Präzise</p><br></br>
+          <p>Diplomatisch</p><br></br>
+          <p>Analytisch</p><br></br>
+          <p> Kritisch</p><br></br>
+          <p>Distanziert</p><br></br>
           <p>Mag Standards</p>
         </div>
         </div>

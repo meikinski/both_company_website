@@ -1,17 +1,13 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import { useInView } from 'react-intersection-observer';
 
 
 export const Story = ({ imageSrc, title, text }) => {
 
-  const {ref, inView } = useInView({
-    threshold: 0.4,
-  });
 
   return (
   <div className='section_black'>
-    <div className= {inView ? "wrapper wrapper--zoom": "wrapper"} ref={ref}> 
+    <div className= "wrapper"> 
         <img src={imageSrc} alt="Logo" className='section_logo' />
         <div className='section_content'>
             <h2 className='section_content_title'>{title}</h2>
