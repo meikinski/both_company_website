@@ -1,46 +1,27 @@
 import './VideoCarousel.css';
-import {Carousel} from 'react-bootstrap';
-import Video1 from '../assets/video1.mp4';
-
-import ReactPlayer from 'react-player';
-import "bootstrap/dist/css/bootstrap.css"; 
-import { useInView } from 'react-intersection-observer';
 import './devices.css';
 
 export default function VideoCarousel() {
        return(
-    <div className='video_wrapper'>
-        <div className="videosection_header">
-            <h2>Weshalb ein Workshop sinnvoll ist</h2>
+    
+<div className="video_wrapper">
+
+        <div className="css-mb">
+          <div className="mb-display-position">
+            <div className="mb-display">
+              <div className="mb-screen-position">
+                <div className="mb-screen">
+                   <iframe width="960" height="480" src="https://www.youtube.com/embed/GUEZCxBcM78?rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;controls=2" frameborder="0" title="video"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mb-body"></div>
+          <div className="mb-bottom-cover"></div>
         </div>
-        <div className="videosection_content_macbook">
-            <div class="device device-macbook">
-                <div class="device-frame">
-                <video src={Video1} autoPlay muted loop controls className='video'/>
-                </div>
-                <div class="device-stripe"></div>
-                <div class="device-header"></div>
-                <div class="device-sensors"></div>
-                <div class="device-btns"></div>
-                <div class="device-power"></div>
-            </div> 
-            </div>
-            <div className="videosection_content_mobile">
-            <div class="device device-iphone-x">
-                <div class="device-frame">
-                <video src={Video1} autoPlay muted loop controls className='video'/>
-                </div>
-                <div class="device-stripe"></div>
-                <div class="device-header"></div>
-                <div class="device-sensors"></div>
-                <div class="device-btns"></div>
-                <div class="device-power"></div>
-            </div> 
-            </div>
-            
-       
-           
-     </div>
+        </div>      
+        
+     
 
        
         

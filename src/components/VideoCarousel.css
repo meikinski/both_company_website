@@ -1,6 +1,5 @@
 .video_wrapper {
     display: flex;
-    flex-direction: row;
     width: 100%;
     height: 100vh;
     background: linear-gradient(-90deg, rgba(235,95,74,0.8) 0%, rgba(235,95,74,0.9) 45%, rgba(235,95,74,0.95) 100%);
@@ -8,84 +7,10 @@
     padding-left: 80px; 
     padding-top: 45px;
     padding-bottom: 45px;
-    
-}
-
-
-.videosection_header {
-    display: flex;
-    margin: auto;
     justify-content: center;
-    letter-spacing: 1.9px;
-    width: 30%; 
-    padding-left: 35px;
-
-}
-
-.videosection_header h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    letter-spacing: 1.8px;
-}
-
-.videosection_content_macbook {
-    display: flex;
-    width: 70%;
-    margin: auto;
-    padding: 30px 50px 40px;
-}
-
-.videosection_content_mobile {
-    display: none;
-}
-
-.video {
-    width: 100%;
-    height: 100%;
+    align-items: center;
     
 }
 
 
 
-
-
-
-@media only screen and (max-width: 1200px) {
-    .video_wrapper {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .videosection_header {
-        width: 70%;
-        text-align: center;
-        justify-content: center;
-        padding-top: 45px;
-        padding-left: 0px;
-    }
-
-    .videosection_content {
-        
-        width: 100%;
-        justify-content: center;
-        padding: 0px;
-        
-    }
-
-    @media only screen and (max-width: 860px) {
-        .videosection_content_macbook {
-            display: none;
-        }
-
-        .videosection_content_mobile {
-            display: flex;
-            width: 70%;
-            margin: auto;
-            
-        }
-
-       
-
-}
-
-}
