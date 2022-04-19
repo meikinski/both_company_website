@@ -1,0 +1,16 @@
+.video_wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-90deg, rgba(235,95,74,0.8) 0%, rgba(235,95,74,0.9) 45%, rgba(235,95,74,0.95) 100%);
+    color: white;
+    padding-left: 80px; 
+    padding-top: 45px;
+    padding-bottom: 45px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
