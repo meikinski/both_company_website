@@ -1,5 +1,4 @@
 import Hero from '../components/Hero';
-import AnalysetoolPic from '../assets/Analysetool.png';
 import CountUp from 'react-countup';
 import { NavLink } from 'react-router-dom';
 import './Analysetool.css';
