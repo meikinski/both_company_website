@@ -12,12 +12,9 @@
 .device {
   position: relative;
   transform: scale(1);
-  z-index: 1;
+ 
 }
 
-.device .device-frame {
-  z-index: 1;
-}
 
 .device .device-content {
   background-color: black;

@@ -46,7 +46,7 @@ Home Black Background Section
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0px 100px;
+  
   
 }
 
@@ -63,14 +63,31 @@ Home Black Background Section
 
 #angebot_picture {
   height: 100%;
-  width: 45%;
+  width: 50%;
   color: black;
   display: flex;
   align-items: center;
   opacity: 0.8; 
   filter: grayscale(100%);
   margin: 0;
+  object-fit: cover;
+
 }
+
+#disg_picture {
+  height: 100%;
+  width: 50%;
+  color: black;
+  display: flex;
+  align-items: center;
+  opacity: 0.8; 
+  filter: grayscale(100%);
+  margin: 0;
+  object-fit: fill;
+
+}
+
+
 
 
 

@@ -1,6 +1,5 @@
 import React from 'react'
-import { Routes, Route, NavLink } from "react-router-dom";
-import { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -13,12 +12,9 @@ import KontaktPage from './pages/KontaktPage';
 import ScrollToTop from './components/ScrollToTop';
 
 
-function App() {
-
-  
-
+const App = () => {
   return (
-    <div className="App">
+    <Router>
       <Navbar imageSrc={Logo}/>
       <ScrollToTop />
       <Routes>
@@ -29,10 +25,8 @@ function App() {
         <Route path='/angebot' element={<Angebot />}></Route>
         <Route path='/kontakt' element={<KontaktPage />}></Route>
       </Routes>
-
       <Footer />
-      
-    </div>
+    </Router>
   );
 }
 

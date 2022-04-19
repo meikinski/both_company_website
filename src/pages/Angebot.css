@@ -67,7 +67,7 @@
 }
 
 .workshop_info_icon img {
-    max-width: 50%;
+    width: 50%;
     height: 50%;   
 }
 
@@ -89,7 +89,7 @@
 }
 
 .workshop_info_side_right {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     margin-bottom: 75px;
@@ -116,4 +116,9 @@
     text-decoration: none;
     
     text-transform: uppercase;
+}
+
+.workshop_info_side_left {
+    width: 40%;
+    
 }

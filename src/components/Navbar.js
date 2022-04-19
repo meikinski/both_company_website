@@ -12,21 +12,25 @@ const Navbar = ({navbarLinks, imageSrc}) => {
         setMenuClicked(!menuClicked);
     };
 
+    const toggleSiteClick = () => {
+        setMenuClicked(true);
+    }
+
     return(
-        <nav className="navbar"> 
+        <nav> 
             <span className="navbar_logo"><img src={imageSrc} alt="" className="navbar_logo"/></span>
             
             {menuClicked ? (
-            <FiX size={35} className="navbar_menu" onClick={toggleMenuClick} />
-            ) : (
             <FiMenu size={35} className="navbar_menu" onClick={toggleMenuClick} />
+            ) : (
+            <FiX size={35} className="navbar_menu" onClick={toggleMenuClick} />
             )} 
             <div className={menuClicked ? "navbar_list" : "navbar_list navbar_list--active"}> 
-                <NavLink className="navbar_link" to="/home">Home</NavLink>
-                <NavLink className="navbar_link" to="/ueberuns">Über uns</NavLink>
-                <NavLink className="navbar_link" to="/analysetool">Analysetool</NavLink>
-                <NavLink className="navbar_link" to="/angebot">Angebot</NavLink>
-                <NavLink className="navbar_link" to="/kontakt">Kontakt</NavLink>
+                <NavLink onClick={toggleSiteClick} className="navbar_link" to="/home">Home</NavLink>
+                <NavLink onClick={toggleSiteClick} className="navbar_link" to="/ueberuns">Über uns</NavLink>
+                <NavLink onClick={toggleSiteClick} className="navbar_link" to="/analysetool">Analysetool</NavLink>
+                <NavLink onClick={toggleSiteClick} className="navbar_link" to="/angebot">Angebot</NavLink>
+                <NavLink onClick={toggleSiteClick} className="navbar_link" to="/kontakt">Kontakt</NavLink>
                   
             </div>
         </nav>

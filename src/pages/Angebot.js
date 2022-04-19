@@ -53,6 +53,7 @@ function Angebot() {
               <p>129,9€ inkl. Snacks&amp;Getränken</p>
               </div>
               </div>
+              
               <div className="workshop_info_side_right">
               <div className="workshop_info_card" id="icon_ort">
               <div className="workshop_info_icon" >

@@ -46,6 +46,7 @@
 .nutzensection_card_title {
     display: flex;
     flex-direction: column;
+    
 }
 .nutzensection_card_title:after {
     content: "";

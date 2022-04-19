@@ -21,7 +21,6 @@ function Home() {
 title={<h1>Wir sind <br></br>both: cologne</h1>} description={<p>Workshops und Training auf <br></br>Basis der DiSG&reg;-Persönlichkeitsprofile.</p>}/>
         <Story imageSrc={Both_white} title={"Unsere Story"} text={"Vom Reden zum machen. Wenn wir nicht selbst etwas ändern, wer dann? Für uns war klar: wir wollen das gemeinsam machen. Wir starten ein Business."}/>
         <VideoCarousel />
-        
         <Angebot title={"Unsere Workshops"} imageSrc={Angebot_Pic}/>
         <Nutzen />
         <Disg imageSrc={Who} title={"Das DiSG Modell"} title2={"Wir sind zertifiziert und gehören zum offiziellen Trainer Netzwerk des Wiley Verlags für DISG® Persönlichkeitsprofile."}/>
