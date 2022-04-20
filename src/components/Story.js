@@ -8,7 +8,7 @@ export const Story = ({ imageSrc, title, text }) => {
   return (
   <div className='section_black'>
     <div className= "wrapper"> 
-        <img src={imageSrc} alt="Logo" className='section_logo' />
+        <img src={imageSrc} alt="Logo" className='section_logo' loading='lazy'/>
         <div className='section_content'>
             <h2 className='section_content_title'>{title}</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,

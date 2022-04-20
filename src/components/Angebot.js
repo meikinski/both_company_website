@@ -8,7 +8,7 @@ export const Angebot = ({ imageSrc, title }) => {
   return (
     <div className='section_black'>
     <div className= "angebot_wrapper" id='angebot'> 
-        <img src={imageSrc} alt="Logo" id='angebot_picture'/>
+        <img src={imageSrc} alt="Logo" id='angebot_picture' loading='lazy'/>
         <div className='section_content' id='angebot_content'>
             <h2 className='section_content_title'>{title}</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
