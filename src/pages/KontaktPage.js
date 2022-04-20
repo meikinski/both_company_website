@@ -1,8 +1,28 @@
 import './KontaktPage.css'
 import Logo_white from '../assets/both_white.png'
+import { useRef } from 'react'; 
+import emailjs from 'emailjs-com';
 
 
 export default function Kontakt_Page() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(
+            process.env.REACT_APP_SERVICE_ID,
+            process.env.REACT_APP_TEMPLATE_ID,
+            e.target,
+            process.env.REACT_APP_PUBLICK_KEY
+        ).then((result) => {
+            alert("Message sent successfully!");
+        }, (error) => {
+            alert("Send email failed!"); 
+        });
+    e.target.reset();
+            };
+
     return(
         <div className='wrapper_kontaktPage'>
        <div className='headerKontakt'>
@@ -11,7 +31,7 @@ export default function Kontakt_Page() {
             <img src={Logo_white} alt='Logo'/>
         </div>
         <div class="container">
-        <form action="">
+        <form action="" ref={form} onSubmit={sendEmail}>
             <div class="name_wrapper">
             <div className='vorname_wrapper'>
             <label for="vorname">Vorname:</label>
