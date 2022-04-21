@@ -35,7 +35,7 @@
 .disg_section_wrapper {
     display: flex;
     flex-direction: column;
-background-color: black;
+    background-color: black;
     text-align: center;
     padding: 80px 40px;
    color: white;
@@ -57,6 +57,7 @@ background-color: black;
 .disg_section_logo {
     width: 40%;
     height: 100%;
+    cursor: pointer;
 }
 
 .disg_section_content {
@@ -93,9 +94,10 @@ background-color: black;
 .disg_type_card {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 300px;
     height: 100%;
     margin: 10px;
     padding: 10px;
@@ -195,8 +197,83 @@ background-color: black;
 }
 
 
+/*--------------
+MODAL
+--------------*/
 
-
-.disg_einsatz_card_heading {
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .modal {
     
-}
+    position: fixed;
+    z-index: 20;
+    background: #fff;
+    
+    height: auto;
+  
+    /* Center the modal */
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .modal__header {
+    background: rgba(235, 95, 74, 0.9);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .modal__main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  
+  .close-button {
+    color: white;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 66px;
+  }
+  
+  .close-button:hover {
+    color: rgba(235, 95, 74, 0.8);
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

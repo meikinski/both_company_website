@@ -1,6 +1,7 @@
 import Hero from '../components/Hero';
 import CountUp from 'react-countup';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 import './Analysetool.css';
 import Disg_Logo from '../assets/Disg.png';
 import Favicon from '../assets/favicin-image.png';
@@ -8,6 +9,11 @@ import Disg from '../assets/disg_header.jpg';
 
 
 function Analysetool() {
+  const [clicked, setClicked] = useState(false);
+  const showMore = () => {
+    setClicked(!clicked);
+  }
+
   
     return (
       <div className="App">
@@ -39,12 +45,16 @@ function Analysetool() {
             </div>
           </div>
       </div>
+
       <div className='disg_section_wrapper'>
         <div className="disg_section_heading">
       <h2>Was genau ist das DiSG Modell?</h2>
       </div>
       <div className='disg_section'>
-        <img src={Disg_Logo} alt="DiSG Logo" className='disg_section_logo'/>
+        
+        <img src={Disg_Logo} alt="DiSG Logo" className='disg_section_logo' onClick={() => showMore()}/>
+      
+        
         <div className='disg_section_content'>
           <p>Das DiSG® Persönlichkeitsmodell wurde 1972 von John G. Geier, Psychologe und Leiter der Verhaltenswissenschaften an der University of Minnesota, veröffentlicht.</p>
           <br></br>
@@ -57,6 +67,8 @@ function Analysetool() {
           <p>Das Modell wird alle <b>8 Jahre erneut validiert</b>, geprüft und auf einzelne Kulturen individuell angepasst. Aktuell umfasst es <b>30 verschiedene Ausführungen</b>, entwickelt für verschiedene Sprachen und Kulturkreise und arbeitet mit einem <b>adaptiven Fragebogen</b> gestützt durch eine Business Intelligence.</p>
       </div>
       </div>
+      {clicked && ( 
+    <>
       <div className='disg_section_types'>
         <div className='disg_type_card' id="green">
           <h5>Dominant</h5>
@@ -98,7 +110,10 @@ function Analysetool() {
           <p>Distanziert</p><br></br>
           <p>Mag Standards</p>
         </div>
+        
         </div>
+       
+        </>)}
       
       </div>
       <div className='disg_einsatz_wrapper'>
