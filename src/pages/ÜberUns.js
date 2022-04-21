@@ -57,7 +57,7 @@ Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der t
               <h6>Co-Founder</h6>
               <p>„Ich bin begeistert und kreiere Ideen, um andere zu inspirieren und mitzureißen, das treibt mich an.“</p>
               <br></br>
-              <button className="button_black" id="button_überuns" onClick={handleShowMoreAntje}>Mehr über mich</button>
+              <button className="btn btn-4" onClick={handleShowMoreAntje}>Mehr über mich</button>
 
               {showMoreAntje && (
                 <>
@@ -83,7 +83,9 @@ Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der t
               <h6>Co-Founder</h6>
               <p>“Wir haben mehr Potenzial, als wir uns zutrauen oder zeigen. Sich gegenseitig fordern und fördern, das treibt mich an.“</p>
               <br></br>
-              <button className="button_black" id="button_überuns" onClick={handleShowMoreLena}>Mehr über mich</button>
+              <button className="btn btn-4" onClick={handleShowMoreLena}>Mehr über mich</button>
+              
+
               {showMoreLena && (
                 <>
               <ul>

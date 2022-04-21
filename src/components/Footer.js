@@ -13,9 +13,8 @@ import './Footer.css';
             <a href="mailto:info@both-cologne.de">info@both-cologne.de</a>
             </address>
             <div className="social">
-            <p><b>Folge uns</b></p>
-            <a href='https://www.instagram.com/both_cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/344/instagram-new.png" classname="icon" alt=""/></a>
-            <a href='https://www.linkedin.com/company/both-cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/452/linkedin.png" classname="icon" alt=""/></a>
+            <a href='https://www.instagram.com/both_cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/344/instagram-new.png" className="icon" alt=""/></a>
+            <a href='https://www.linkedin.com/company/both-cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/452/linkedin.png" className="icon" alt=""/></a>
             </div>
             <div className="about">
             

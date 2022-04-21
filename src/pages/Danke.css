@@ -1,0 +1,32 @@
+.wrapper_DankePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 50px;
+    background: linear-gradient(90deg, rgba(235,95,74,0.85) 0%, rgba(235,95,74,0.95) 45%, rgba(235,95,74,1) 100%);
+    color: white;
+}
+
+.headerDanke {
+    text-align: center;
+    width: 70%;
+}
+
+.headerDanke h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.headerDanke h6 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    margin-top: 1rem;
+}
+
+
+
+

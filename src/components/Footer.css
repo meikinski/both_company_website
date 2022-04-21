@@ -1,3 +1,4 @@
+
 .footer {
     font-size: 0.9rem;
     display: flex;
@@ -17,7 +18,9 @@
 }
 
 .social {
-    
+   display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center;
 }
 .social a {
@@ -26,6 +29,7 @@
 
 .social img {
     height: 70px;
+    background-color: black;
 }
 
 .contact {

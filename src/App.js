@@ -10,6 +10,7 @@ import './App.css';
 import Logo from "./assets/Logo.png"
 import KontaktPage from './pages/KontaktPage';
 import ScrollToTop from './components/ScrollToTop';
+import Danke from './pages/Danke';
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='/analysetool' element={<Analysetool />}></Route>
         <Route path='/angebot' element={<Angebot />}></Route>
         <Route path='/kontakt' element={<KontaktPage />}></Route>
+        <Route path='/danke' element={<Danke />}></Route>
       </Routes>
       <Footer />
     </Router>
