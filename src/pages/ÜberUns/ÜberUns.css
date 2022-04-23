@@ -210,24 +210,83 @@ WERTE SECTION
 -------------
 Media Queries
 --------------*/
-@media only screen and (max-width: 800px) {
-    .cards_wrapper {
-        display: flex;
+@media only screen and (max-width: 501px) {
+    .section_wrapper {
         flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
+        padding: 15% 10% 0% 10%;
+    }
+    
+    .section_wrapper h2 {
+        text-align: center;
     }
 
-    .card {
-        width: 80%;
-        justify-content: center;
-        align-items: center;
+    .section_wrapper h3 {
+        text-align: center;
     }
-
-    .card_image {
-        width: 80%;
-        
-    }
+    
+    .section_wrapper p{
+        text-align: center;
 }
 
+.cards_wrapper {
+    flex-direction: column;
+    justify-content: center;
+}
 
+.card {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+.card img {
+    width: 70%;
+    height: auto;   
+}
+
+.card ul {
+    margin-top: 55px;
+}
+
+.card li {
+    list-style: none;
+    margin: 1rem;
+    letter-spacing: 1.5px;
+}
+
+.icon {
+    color: black;
+    background-color: transparent;
+}
+
+.card_content h4 {
+    margin-top: 2rem;
+}
+
+.card_content h6 {
+    letter-spacing: 1.5px;
+    margin-bottom: 2rem;
+    color:rgb(101, 99, 99)
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+    .section_wrapper {
+        flex-direction: column;
+        padding: 15% 10% 0% 10%;
+    }
+    
+    .section_wrapper h2 {
+        text-align: center;
+    }
+
+    .section_wrapper h3 {
+        text-align: center;
+    }
+    
+    .section_wrapper p{
+        text-align: center;
+}
+
+}

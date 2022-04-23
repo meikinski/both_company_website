@@ -67,17 +67,28 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: absolute;
+        position: absolute;                         
         top: 80px;
         right: -100%;
         width: 100%;
         height: 200px;
         transition: all 0.3s;
         opacity: 0.8;
+        display: none;
     }
 
     .navbar_list--active {
         right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;                         
+        top: 80px;
+        width: 100%;
+        height: 200px;
+        transition: all 0.3s;
+        opacity: 0.8;
        
     }
 

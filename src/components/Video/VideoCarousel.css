@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 480px) {
     .video_wrapper {
-        height: 70vh;
+        height: 50vh;
         padding-left: 10%;
         padding-right: 10%;
     }
