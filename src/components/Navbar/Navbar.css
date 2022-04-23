@@ -61,7 +61,7 @@ nav {
     height: 70px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
     .navbar_list {
         display: flex;
         flex-direction: column;

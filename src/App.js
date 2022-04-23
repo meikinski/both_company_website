@@ -1,16 +1,17 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import ÜberUns from './pages/ÜberUns';
-import Analysetool from './pages/Analysetool';
-import Angebot from './pages/Angebot';
-import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import Home from './pages/Home/Home';
+import ÜberUns from './pages/ÜberUns/ÜberUns';
+import Analysetool from './pages/Analysetool/Analysetool';
+import Angebot from './pages/Angebot/Angebot';
 import Logo from "./assets/Logo.png"
-import KontaktPage from './pages/KontaktPage';
-import ScrollToTop from './components/ScrollToTop';
-import Danke from './pages/Danke';
+import KontaktPage from './pages/KontaktPage/KontaktPage';
+import Danke from './pages/Danke/Danke';
+import Impressum from './pages/Impressum';
+import './App.css';
 
 
 const App = () => {
@@ -26,6 +27,8 @@ const App = () => {
         <Route path='/angebot' element={<Angebot />}></Route>
         <Route path='/kontakt' element={<KontaktPage />}></Route>
         <Route path='/danke' element={<Danke />}></Route>
+        <Route path='/impressum' element={<Impressum />}></Route>
+
       </Routes>
       <Footer />
     </Router>

@@ -1,5 +1,5 @@
 import './KontaktPage.css'
-import Logo_white from '../assets/both_white.png'
+import Logo_white from '../../assets/both_white.png'
 import { useRef } from 'react'; 
 import { useNavigate } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
@@ -13,7 +13,6 @@ export default function Kontakt_Page() {
     const sendEmail = (e) => {
         e.preventDefault();
         
-
         emailjs.sendForm(
             process.env.REACT_APP_SERVICE_ID,
             process.env.REACT_APP_TEMPLATE_ID,
@@ -31,12 +30,12 @@ export default function Kontakt_Page() {
 
     return(
         <div className='wrapper_kontaktPage'>
-       <div className='headerKontakt'>
-            <h2>Hast du Fragen oder Interesse an unserem Workshop?</h2>
-           <h6>Schreibe uns eine Nachricht und wir melden uns bei dir.</h6>
-            <img src={Logo_white} alt='Logo'/>
+            <div className='headerKontakt'>
+                <h2>Hast du Fragen oder Interesse an unserem Workshop?</h2>
+                <h6>Schreibe uns eine Nachricht und wir melden uns bei dir.</h6>
+                <img src={Logo_white} alt='Logo'/>
         </div>
-        <div className="container">
+        <div className="wrapper_formular">
         <form ref={form} onSubmit={sendEmail}>
             <div className="name_wrapper">
             <div className='vorname_wrapper'>

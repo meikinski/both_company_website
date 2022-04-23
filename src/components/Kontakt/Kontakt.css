@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    padding: 25px 15px;
+    padding: 10%;
     text-align: center;
 }
 
@@ -22,30 +22,8 @@
 }
 
 .text_wrapper h5 {
-    margin-top: 20px;
-}
-
-.btn_kontakt {
-    border-radius: 4px;
-    padding: 10px 20px;
-    margin: 25px auto;
-    width: 150px;;
-    font-size: 16px;
-    color: #fff;
-    background-color: black;
-    border: 1px solid black;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-
-.btn_kontakt:hover {
-    color: white;
-    background-color: rgb(82, 87, 94);
-    font-weight: bold;
-    opacity: 0.9;
-    transform: scale(1.1);
-    transition-duration: 1.5s;
+    margin: 3% 0;
+    font-size: 1.2rem;
 }
 
 .btn {
@@ -55,9 +33,9 @@
     color: inherit;
     background: none;
     cursor: pointer;
-    padding: 25px 50px;
+    padding: 2% 5%;
+    margin-top: 2%;
     display: inline-block;
-    margin-top: 30px;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     font-weight: 600;
@@ -88,7 +66,7 @@
   
   /* Icon separator */
   .btn-sep {
-    padding: 20px 60px 20px 100px;
+    padding: 2% 6% 2% 10%;
   }
   
   .btn-sep:before {
@@ -123,4 +101,77 @@
     content: "\f1d8";
   }
 
+  @media only screen and (max-width: 501px){
+    .wrapper_kontakt {
+      height: 100vh;
+  }
+  .text_wrapper h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .text_wrapper h5 {
+    margin: 8% 0;
+  font-weight: 600;    
+}
+
+.btn-4:before {  
+  line-height: 2;
+  font-size: 100%;
+  width: 30px;
+}
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .wrapper_kontakt {
+      height: 70vh;
+  }
+  .text_wrapper h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .text_wrapper h5 {
+    margin: 8% 0;
+  font-weight: 600;    
+}
+
+.btn-4:before {  
+  font-size: 120%;
+  line-height: 2;
+  width: 30px;
+ 
+}
+    
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper_kontakt {
+    height: 80vh;
+}
+  .text_wrapper h4 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.text_wrapper h5 {
+  margin: 8% 0;
+  font-weight: 600;    
+}
+
+.btn-4:before {  
+font-size: 140%;
+line-height: 2;
+width: 30px;
+
+}
   
+}
+  
+
+
+
+
+

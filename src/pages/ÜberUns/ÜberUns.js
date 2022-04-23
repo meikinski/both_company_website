@@ -1,15 +1,15 @@
-import Hero from "../components/Hero"
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
 import './ÜberUns.css'
-import "../components/Hero.css"
-import Gründerinnen from "../assets/Gründerinnen.png";
-import Antje from "../assets/Antje.jpeg"
-import Lena from "../assets/Lena.jpeg"
-import Glühbirne from "../assets/Glühbirne.png"
-import Prozess from "../assets/prozess.png"
-import Positiv from "../assets/positive.png"
-import Group from '../assets/group.png'
+import "../../components/Hero/Hero.css"
+import Hero from "../../components/Hero/Hero"
+import Gründerinnen from "../../assets/Gründerinnen.png";
+import Antje from "../../assets/Antje.jpeg"
+import Lena from "../../assets/Lena.jpeg"
+import Glühbirne from "../../assets/Glühbirne.png"
+import Prozess from "../../assets/prozess.png"
+import Positiv from "../../assets/positive.png"
+import Group from '../../assets/group.png'
 
 function ÜberUns() {
   const [showMoreAntje, setShowMoreAntje] = useState(false);
@@ -24,29 +24,27 @@ function ÜberUns() {
     return (
       <div className="app">
         <Hero imageSrc={Gründerinnen} title={<h1>Über Uns</h1>} title2={<p>A SUCCESSFUL TEAM BEATS WITH ONE HEART</p>} />
-        
         <div className="ueberuns_section_wrapper">
-        <div className="section_wrapper">
-        <h2>Unsere Story</h2>
-        <p>Berufseinstieg, Erfolge, Rollen im Unternehmen, Jobsuche, Veränderung, Mitarbeiterentwicklung, Teamkonstellationen, Konfliktsituationen – wir zwei sind seit einigen Jahren in der Berufswelt angekommen und haben schon immer gerne gemeinsam über die Arbeit und über uns bei der Arbeit reflektiert, Situationen besprochen und uns gegenseitig unterstützt.
-        </p>
-        <br></br>
-        <p>Nach den ersten Jobjahren und den ersten positiven, wie negativen Erfahrungen kamen wir in unseren Gesprächen immer öfter an den Punkt, dass man „das doch besser machen müsse“, „gemeinsam viel mehr erreichen könne“, „dass Gleichberechtigung doch irgendwie konsequenter Einzug in die Arbeitswelt erhalten müsse “.</p>
-        </div>
-        <div className="section_wrapper">
-        <h3>Vom Reden zum Machen</h3>
-        <p>Wenn wir nicht selbst etwas ändern, wer dann?
-Und für uns war klar: wir wollen das gemeinsam machen. Wir starten ein Business.</p>
-        <br></br>
-        <p>Also haben wir uns auf die Suche gemacht. Auf die Suche nach unserem Warum, nach unseren Werten, nach denen wir arbeiten wollen und schnell wurde die Idee geboren: eine bewusste Wahrnehmung von mir und meinem Arbeitsumfeld, mit den unterschiedlichen Persönlichkeiten und unterschiedlichen Bedürfnissen, ist der Schlüssel für bessere Kommunikation und einen respektvollen und reflektierten Umgang miteinander. Und eine Möglichkeit, sich selbst stärker im Berufsleben zu positionieren und Teams erfolgreicher zu machen.
-Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der transparent und einfach verständlich ist, mit konkreten Tools &amp; Ideen, die jeder direkt anwenden kann.</p>
-        <br></br>
-        
-        <p>Dafür haben wir uns mit vielen Persönlichkeitstools auseinandergesetzt und sie getestet und uns daraufhin für das DiSG®-Persönlichkeitstool zertifizieren lassen und verschiedene Angebote entwickelt, dieses Tool und unsere Philosophie zu erklären, zu testen und anzuwenden.</p>
-        <br></br>
-        <p><b>Und damit geht es los! Wir freuen uns auf den Austausch mit dir!</b></p>
-        </div>
-        </div>
+          <div className="section_wrapper">
+            <h2>Unsere Story</h2>
+            <p>Berufseinstieg, Erfolge, Rollen im Unternehmen, Jobsuche, Veränderung, Mitarbeiterentwicklung, Teamkonstellationen, Konfliktsituationen – wir zwei sind seit einigen Jahren in der Berufswelt angekommen und haben schon immer gerne gemeinsam über die Arbeit und über uns bei der Arbeit reflektiert, Situationen besprochen und uns gegenseitig unterstützt.
+            </p>
+            <br></br>
+            <p>Nach den ersten Jobjahren und den ersten positiven, wie negativen Erfahrungen kamen wir in unseren Gesprächen immer öfter an den Punkt, dass man „das doch besser machen müsse“, „gemeinsam viel mehr erreichen könne“, „dass Gleichberechtigung doch irgendwie konsequenter Einzug in die Arbeitswelt erhalten müsse “.</p>
+          </div>
+          <div className="section_wrapper">
+            <h3>Vom Reden zum Machen</h3>
+            <p>Wenn wir nicht selbst etwas ändern, wer dann?
+            Und für uns war klar: wir wollen das gemeinsam machen. Wir starten ein Business.</p>
+            <br></br>
+            <p>Also haben wir uns auf die Suche gemacht. Auf die Suche nach unserem Warum, nach unseren Werten, nach denen wir arbeiten wollen und schnell wurde die Idee geboren: eine bewusste Wahrnehmung von mir und meinem Arbeitsumfeld, mit den unterschiedlichen Persönlichkeiten und unterschiedlichen Bedürfnissen, ist der Schlüssel für bessere Kommunikation und einen respektvollen und reflektierten Umgang miteinander. Und eine Möglichkeit, sich selbst stärker im Berufsleben zu positionieren und Teams erfolgreicher zu machen.
+            Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der transparent und einfach verständlich ist, mit konkreten Tools &amp; Ideen, die jeder direkt anwenden kann.</p>
+            <br></br>
+            <p>Dafür haben wir uns mit vielen Persönlichkeitstools auseinandergesetzt und sie getestet und uns daraufhin für das DiSG®-Persönlichkeitstool zertifizieren lassen und verschiedene Angebote entwickelt, dieses Tool und unsere Philosophie zu erklären, zu testen und anzuwenden.</p>
+            <br></br>
+            <p><b>Und damit geht es los! Wir freuen uns auf den Austausch mit dir!</b></p>
+            </div>
+          </div>
         <div className="cards_wrapper">
           <div className="card">
             <div className="card_image">
@@ -58,7 +56,6 @@ Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der t
               <p>„Ich bin begeistert und kreiere Ideen, um andere zu inspirieren und mitzureißen, das treibt mich an.“</p>
               <br></br>
               <button className="btn btn-4" onClick={handleShowMoreAntje}>Mehr über mich</button>
-
               {showMoreAntje && (
                 <>
               <ul>
@@ -67,7 +64,7 @@ Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der t
                 <li>✓ Bachelor of Commerce mit Schwerpunkt strategisches Marketing in Emmen (NL) und Tandil (ARG)</li>
               </ul>
               <br></br>
-              <p>Als Produktmanagerin in einem global tätigem Unternehmen habe ich in unzähligen Projekten mit Menschen gearbeitet. Hier fungiere ich als Vernetzungsstelle für verschiedene Fachbereiche, Abteilungen und Mitarbeiter. Dabei habe ich gelernt, dass das Wahrnehmen von Stärken, Schwächen und Bedürfnissen im Arbeitskontext ein wichtiger Erfolgsfaktor ist.</p>
+              <p>Als Produktmanagerin in einem global tätigen Unternehmen habe ich in unzähligen Projekten mit Menschen gearbeitet. Hier fungierte ich als Vernetzungsstelle für verschiedene Fachbereiche, Abteilungen und Mitarbeiter*innen. Dabei habe ich gelernt, dass das Wahrnehmen von Stärken, Schwächen und Bedürfnissen im Arbeitskontext ein wichtiger Erfolgsfaktor ist. Aktuell arbeite ich als Einkäuferin für ein Unternehmen in Europa und betreue mehr als 20 Lieferanten pro Quartal. Das DiSG® Toolset im Umgang mit unterschiedlichen Verhandlungspartnern ist einer meiner wichtigsten Erfolgsfaktoren.</p>
               <br></br>
               <p>In den letzten 10 Jahren habe ich in vier Ländern gelebt und arbeite in einem internationalen Team. Dadurch habe ich ein breites Wissen über interkulturelle und vernetzte Zusammenarbeit.</p>
               <br></br>
@@ -84,8 +81,6 @@ Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der t
               <p>“Wir haben mehr Potenzial, als wir uns zutrauen oder zeigen. Sich gegenseitig fordern und fördern, das treibt mich an.“</p>
               <br></br>
               <button className="btn btn-4" onClick={handleShowMoreLena}>Mehr über mich</button>
-              
-
               {showMoreLena && (
                 <>
               <ul>
@@ -101,7 +96,6 @@ Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der t
               <p>&raquo; <b>Kernkompetenzen: Kreativität &amp; Pragmatismus</b></p></>)}
             </div>
           </div>
-          
         </div>
         <div className="werte_cards_wrapper">
             <div className="werte_header">
@@ -142,7 +136,6 @@ Ein Herzensthema, das wir weitergeben möchten. Und zwar in einem Prozess, der t
               <div className='text_wrapper'>
                 <h4>Du findest unser Angebot spannend und willst mit uns arbeiten?</h4>
                 <h5>Dann schick eine Mail oder ruf uns an.</h5>
-                
                 <NavLink to="/kontakt">
                 <button className='btn btn-4 btn-sep icon-send'>Kontakt</button></NavLink>
               </div>

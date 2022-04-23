@@ -1,0 +1,43 @@
+.video_wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-90deg, rgba(235,95,74,0.8) 0%, rgba(235,95,74,0.9) 45%, rgba(235,95,74,0.95) 100%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 480px) {
+    .video_wrapper {
+        height: 70vh;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .video_wrapper {
+        height: 70vh;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+
+}
+
+@media screen and (max-width: 1024px) {
+    .video_wrapper {
+        height: 80vh;
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    
+
+}
+
+
+
