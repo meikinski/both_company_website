@@ -10,7 +10,7 @@ import AngebotPage from './pages/Angebot/AngebotPage';
 import Logo from "./assets/Logo.png"
 import KontaktPage from './pages/KontaktPage/KontaktPage';
 import Danke from './pages/Danke/Danke';
-import Impressum from './pages/Impressum';
+import Impressum from './pages/Impressum/Impressum';
 import './App.css';
 
 

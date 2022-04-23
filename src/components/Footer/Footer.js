@@ -21,7 +21,7 @@ import Logo from '../../assets/both_white.png';
             
             <div className="about">
                 <NavLink className="navbar_link_footer" to="/home">Home</NavLink>
-                <NavLink className="navbar_link_footer" to="/uberuns">Über uns</NavLink>
+                <NavLink className="navbar_link_footer" to="/ueberuns">Über uns</NavLink>
                 <NavLink className="navbar_link_footer" to="/Analysetool">Analysetool</NavLink>
                 <NavLink className="navbar_link_footer" to="/Angebot">Angebot</NavLink>
                 <NavLink className="navbar_link_footer" to="/Impressum">Impressum</NavLink>
