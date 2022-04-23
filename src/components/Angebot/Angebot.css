@@ -41,6 +41,11 @@
   
   }
 
+  .angebot_section_content p {
+    color:rgb(180, 180, 180);
+    
+  }
+
   #angebot_picture {
     height: 100%;
     width: 50%;

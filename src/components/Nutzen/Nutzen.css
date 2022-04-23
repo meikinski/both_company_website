@@ -58,6 +58,11 @@
 
 }
 
+.nutzensection_card p {
+    color:rgb(180, 180, 180);
+
+}
+
 .nutzensection_card:hover {
     background-color: rgb(42, 41, 41);
     transition: 0.9s;
@@ -259,6 +264,7 @@
     .nutzensection_card p{
         margin-top: 15px;
         font-size: 0.9rem;
+        
     }
     
 }

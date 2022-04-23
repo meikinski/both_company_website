@@ -53,6 +53,11 @@
     margin: 1.5rem auto;
 }
 
+.story_section_content p {
+  color:rgb(180, 180, 180);
+
+}
+
 .story_button_black {
     width: 150px;
     font-size: 16px;
