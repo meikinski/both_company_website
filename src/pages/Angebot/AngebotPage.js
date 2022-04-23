@@ -50,7 +50,8 @@ function Angebot() {
                     <img src={Kosten} alt="Kosten"/>
                   </div>
                   <div className="workshop_info_text"> 
-                  <p>129,99€ inkl. Snacks&amp;Getränken</p>
+                  <p>129,99€</p>
+                  <p>inkl. Snacks&amp;Getränken</p>
                   </div>
                 </div>
               </div>
