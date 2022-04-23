@@ -96,11 +96,13 @@
   .story_section_content{
     width: 90%;
     padding: 0% 5%;
+   
   }
 
   .story_section_content_title {
     font-size: 1.8rem;
     font-weight: 700;
+    
   }
 
   .button_black {
@@ -143,17 +145,18 @@
   }
 
   .story_section_logo {
-    width: 60%;
-    margin-bottom: 15%;
+    width: 70%;
+    margin-bottom: 20%;
+    margin-top: 10%;
   }
 
   .story_section_content{
-    width: 100%;
+    width: 90%;
     padding: 0% 5%;
   }
 
-  .story_section_content_title {
-    font-size: 1.8rem;
+  .story_section_content_title h2 {
+    font-size: 1.5rem;
     font-weight: 700;
   }
 

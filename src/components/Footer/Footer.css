@@ -87,7 +87,7 @@
 
 @media screen and (max-width: 600px) {
     .footer {
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
     
     .logo_footer {
@@ -95,12 +95,12 @@
     }
 
     .about {
-        width: 40%;
-        padding: 0 10px;
+        width: 30%;
+        padding: 0 5px;
 }
     .contact {
         width: 60%;
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
 }
