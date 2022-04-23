@@ -123,6 +123,11 @@
     width: 40%;
     
 }
+.workshop_info_side_right iframe {
+    
+    width: 60%;
+    height: 100%;
+    }
 
 @media screen and (max-width: 1024px) {
    
@@ -226,6 +231,7 @@
     .workshop_section_info {
         flex-direction: column;
         padding-bottom: 15%;
+        padding-top: 15%;
     }
 
     .workshop_section_info p {
