@@ -1,17 +1,35 @@
 
+.footer_wrapper {
+    background-color: black;
+
+}
+
 .footer {
     font-size: 0.9rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 75px 20px;
+    padding: 45px;
     margin-bottom: 0;
     background-color: black;
     color: white;
 }
 
+.logo_footer {
+    display: flex;
+    width: 20%;
+    height: auto;
+    opacity: 0.8;
+   
+}
+
+.logo_footer_img {
+    width: 100%;
+   
+}
+
 .about {
-   width: 180px;
+   width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,7 +38,7 @@
 .social {
    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
 }
 .social a {
@@ -30,6 +48,7 @@
 .social img {
     height: 70px;
     background-color: black;
+    opacity: 1;
 }
 
 .contact {
@@ -62,4 +81,38 @@
     color: rgba(235, 95, 74, 0.9);
     font-weight: bold;
     
+}
+
+@media screen and (max-width: 600px) {
+    .logo_footer {
+        align-items: center;
+    }
+
+    .logo_footer_img {
+        width: 100%;
+        height: 60%;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        justify-content: space-evenly;
+    }
+    
+    .logo_footer {
+        display: none;
+    }
+
+    .about {
+        width: 40%;
+        padding: 0 10px;
+}
+    .contact {
+        width: 60%;
+        padding: 0 10px;
+    }
+
 }
