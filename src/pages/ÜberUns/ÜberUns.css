@@ -165,6 +165,7 @@ WERTE SECTION
 .werte_header h2:after {
         content: "";
         display: block;
+        
         width: 30%;
         height: 1px;
         background-color: rgba(235,95,74,1);
@@ -174,7 +175,6 @@ WERTE SECTION
 .werte_card {
     width: 35%;
     padding: 20px;
-    text-align: center;
     margin: 15px; 
     text-align: left;
 }
@@ -210,7 +210,7 @@ WERTE SECTION
 -------------
 Media Queries
 --------------*/
-@media only screen and (max-width: 501px) {
+@media only screen and (max-width: 840px) {
     .section_wrapper {
         flex-direction: column;
         padding: 15% 10% 0% 10%;
@@ -230,51 +230,70 @@ Media Queries
 
 .cards_wrapper {
     flex-direction: column;
-    justify-content: center;
 }
 
 .card {
     width: 100%;
-    padding: 25px;
+    padding: 0px;
     text-align: center;
+    margin: 5% 0%;
 }
 
 .card img {
-    width: 70%;
+    width: 50%;
     height: auto;   
 }
 
-.card ul {
-    margin-top: 55px;
+.card_content h4 {
+   font-weight: 700;
 }
 
-.card li {
-    list-style: none;
-    margin: 1rem;
-    letter-spacing: 1.5px;
+.card ul {
+    margin-top: 35px;
+    font-size: 14px;
 }
+
+.werte_content {
+    
+    flex-direction: column;
+   
+}
+
+.werte_content {
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+.werte_card {
+    width: 100%;
+    padding: 0px 20px;
+    text-align: center;
+    margin: 15px 0%;; 
+}
+
+.werte_header {
+    padding-left: 0px;
+}
+
+.werte_header h2 {
+    margin-bottom: 0rem;
+}
+
 
 .icon {
-    color: black;
-    background-color: transparent;
+    margin: 20px auto;
 }
 
-.card_content h4 {
-    margin-top: 2rem;
-}
-
-.card_content h6 {
-    letter-spacing: 1.5px;
-    margin-bottom: 2rem;
-    color:rgb(101, 99, 99)
-}
 
 }
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 501px) {
     .section_wrapper {
         flex-direction: column;
         padding: 15% 10% 0% 10%;
+        justify-content: center;
     }
     
     .section_wrapper h2 {
@@ -289,4 +308,55 @@ Media Queries
         text-align: center;
 }
 
+.cards_wrapper {
+    flex-direction: column;
 }
+
+.card {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    margin: 5% 0%;
+}
+
+.card img {
+    width: 60%;
+    height: auto;   
+}
+
+.card_content h4 {
+   font-weight: 700;
+}
+
+.card ul {
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.werte_content {
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+.werte_card {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    margin: 15px 0%;; 
+}
+
+.werte_header {
+    padding-left: 0px;
+}
+
+.werte_header h2 {
+    margin-bottom: 0rem;
+}
+
+
+.icon {
+    margin: 20px auto;
+}
+
+}
+
