@@ -96,11 +96,11 @@
 
     .about {
         width: 30%;
-        padding: 0 5px;
+        padding: 0 0px;
 }
     .contact {
         width: 70%;
-        padding: 0 5px;
+        padding: 0 0px;
     }
 
 }
