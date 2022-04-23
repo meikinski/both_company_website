@@ -64,29 +64,27 @@
 }
 
 .angebot_button_black {
-    width: 150px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    height: 50px;
-    text-align:center;
-    letter-spacing: 1.2px;
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: transparent;
-    transition: all .4s ease-in-out;
-    box-shadow: 0 4px 5px 0 rgba(235, 95, 74, 1);
-    margin: 40px 0px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  text-align:center;
+  letter-spacing: 1.2px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all .4s ease-in-out;
+  margin: 40px 0px;
 }
 
 
-.angeobt_button_black:hover {
-    border-color: rgb(235, 95, 74);
-    color:rgb(235, 95, 74);
-    transition: all .4s ease-in-out;
+.angebot_button_black:hover {
+  border-color: rgb(235, 95, 74);
+  color:rgb(235, 95, 74);
+  transition: all .4s ease-in-out;
 }
-
 
 
 

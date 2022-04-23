@@ -128,7 +128,7 @@
 
 @media screen and (max-width: 768px) {
     .wrapper_kontakt {
-      height: 70vh;
+      height: 80vh;
   }
   .text_wrapper h4 {
     font-weight: 700;
@@ -168,7 +168,7 @@ font-weight: 600;
 .btn-4:before {  
 line-height: 2;
 font-size: 100%;
-width: 40px;
+width: 25%;
 }
   
 }

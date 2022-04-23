@@ -26,9 +26,9 @@
 
 @media screen and (max-width: 768px) {
     .video_wrapper {
-        height: 70vh;
-        padding-left: 10%;
-        padding-right: 10%;
+        height: 75vh;
+        padding-left: 12%;
+        padding-right: 12%;
     }
     
 
@@ -36,9 +36,9 @@
 
 @media screen and (max-width: 480px) {
     .video_wrapper {
-        height: 45vh;
-        padding-left: 10%;
-        padding-right: 10%;
+        height: 65vh;
+        padding-left: 15%;
+        padding-right: 15%;
     }
     
 
