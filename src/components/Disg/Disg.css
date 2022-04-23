@@ -40,33 +40,28 @@
     margin: 1.5rem auto;
 }
 
-.button_black {
-    width: 150px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    height: 50px;
-    margin: 30px;
-    text-align:center;
-    letter-spacing: 1.2px;
-    border: 1px solid white;
-    background-size: 400% 100%;
-    border-radius: 5px;
-    background-color: transparent;
-    transition: all .4s ease-in-out;
-    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+.disg_button_black {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  text-align:center;
+  letter-spacing: 1.2px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all .4s ease-in-out;
+  box-shadow: 0 4px 5px 0 rgba(235, 95, 74, 1);
+  margin: 40px 0px;
 }
 
 
-.button_black:hover {
-    border-color: rgb(235, 95, 74);
-    color:rgb(235, 95, 74);
-    transition: all .4s ease-in-out;
-}
-
-.button_black:focus {
-  outline: none;
+.disg_button_black:hover {
+  border-color: rgb(235, 95, 74);
+  color:rgb(235, 95, 74);
+  transition: all .4s ease-in-out;
 }
 
 .disg_section_logo {
@@ -92,4 +87,77 @@
     margin: 0;
     object-fit: fill;
   
+  }
+  @media screen and (max-width: 960px) {
+    .disg_wrapper {
+      height: auto;
+      flex-direction: column-reverse;
+    }
+
+    .disg_section_content{
+      width: 100%;
+      margin-top: 25px;
+    padding: 35px;
+      
+    }
+
+    .disg_section_content_title {
+      font-size: 2.5rem;
+     
+    }
+
+    #disg_picture {
+      width: 100%;
+    
+    }
+  }
+
+
+  @media screen and (max-width: 890px) {
+    .disg_wrapper {
+      height: auto;
+      flex-direction: column-reverse;
+    }
+
+    .disg_section_content{
+      width: 100%;
+      margin-top: 25px;
+    padding: 35px;
+      
+    }
+
+    .disg_section_content_title {
+      font-size: 2rem;
+     
+    }
+
+    #disg_picture {
+      width: 100%;
+    
+    }
+  }
+
+  @media screen and (max-width: 501px) {
+    .disg_wrapper {
+      height: auto;
+      flex-direction: column-reverse;
+    }
+
+    .disg_section_content{
+      width: 100%;
+      
+      margin-top: 15px;
+    padding: 35px;
+      
+    }
+
+    .disg_section_content_title {
+      font-size: 2rem;
+     
+    }
+
+    #disg_picture {
+      width: 100%;
+    
+    }
   }

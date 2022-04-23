@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1024px) {
     .video_wrapper {
-        height: 80vh;
+        height: 90vh;
         padding-left: 12%;
         padding-right: 12%;
     }
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 768px) {
     .video_wrapper {
-        height: 60vh;
+        height: 70vh;
         padding-left: 10%;
         padding-right: 10%;
     }

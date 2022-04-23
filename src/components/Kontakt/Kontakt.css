@@ -92,37 +92,39 @@
     height: 100%;
     left: 0;
     top: 0;
-    line-height: 3;
-    font-size: 140%;
-    width: 60px;
+    line-height: 2;
+    font-size: 170%;
+    width: 30%;
   }
 
   .icon-send:before {
     content: "\f1d8";
   }
 
-  @media only screen and (max-width: 501px){
+  
+  @media screen and (max-width: 1024px) {
     .wrapper_kontakt {
       height: 80vh;
   }
-  .text_wrapper h4 {
+    .text_wrapper h4 {
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
-
+  
   .text_wrapper h5 {
     margin: 8% 0;
-  font-weight: 600;    
-}
-
-.btn-4:before {  
+    font-weight: 600;    
+  }
+  
+  .btn-4:before {  
+  font-size: 140%;
   line-height: 2;
-  font-size: 100%;
-  width: 30px;
-}
+  width: 30%;
+  
+  }
     
-}
-
+  }
+    
 
 @media screen and (max-width: 768px) {
     .wrapper_kontakt {
@@ -141,37 +143,35 @@
 .btn-4:before {  
   font-size: 120%;
   line-height: 2;
-  width: 30px;
+  width: 30%;
  
 }
     
 }
 
-@media screen and (max-width: 1024px) {
+
+
+@media only screen and (max-width: 501px){
   .wrapper_kontakt {
     height: 80vh;
 }
-  .text_wrapper h4 {
+.text_wrapper h4 {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .text_wrapper h5 {
   margin: 8% 0;
-  font-weight: 600;    
+font-weight: 600;    
 }
 
 .btn-4:before {  
-font-size: 140%;
 line-height: 2;
-width: 30px;
-
+font-size: 100%;
+width: 40px;
 }
   
 }
-  
-
-
 
 
 
