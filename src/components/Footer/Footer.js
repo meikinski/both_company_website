@@ -17,6 +17,7 @@ import Logo from '../../assets/both_white.png';
                 50672 Köln<br />
                 <a href="tel: +49176995852">+49 176 – 99 58 85 52</a>
                 <a href="mailto:info@both-cologne.de">info@both-cologne.de</a>
+                <NavLink className="navbar" to="/Impressum">Impressum</NavLink>
             </address>
             
             <div className="about">
@@ -24,7 +25,7 @@ import Logo from '../../assets/both_white.png';
                 <NavLink className="navbar_link_footer" to="/ueberuns">Über uns</NavLink>
                 <NavLink className="navbar_link_footer" to="/Analysetool">Analysetool</NavLink>
                 <NavLink className="navbar_link_footer" to="/Angebot">Angebot</NavLink>
-                <NavLink className="navbar_link_footer" to="/Impressum">Impressum</NavLink>
+                
             </div> 
                  
         </div>
