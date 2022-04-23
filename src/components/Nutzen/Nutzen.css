@@ -14,7 +14,7 @@
     padding-left: 45px;
     justify-content: center;
     letter-spacing: 1.9px;
-    width: 30%; 
+    width: 25%; 
     
 }
 
@@ -70,49 +70,244 @@
 }
 
 /*Media Queries*/
-@media only screen and (max-width: 1200px){
-    .nutzensection_content {
-        justify-content: center;
-    }
-    .nutzensection_card {
-        width: 45%;
+@media screen and (max-width: 1200px) {
+    .nutzen_wrapper {
         flex-direction: row;
-        flex-wrap: wrap;
+        padding-left: 0px;
+        
     }
 
     .nutzensection_header {
-        width: 15%;
+        width: 40%; 
+        text-align: center;
+        margin: 0 auto;
+        padding: 35px;
+        
+        
     }
-}
+    
+    .nutzensection_header h2 {
+        font-size: 2.5rem;
+       
+    }
 
-@media only screen and (max-width: 1090px){
     .nutzensection_content {
-        justify-content: center;
-    }
-    .nutzensection_card {
-        width: 80%;
         flex-direction: row;
-        flex-wrap: wrap;
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        
     }
-    .nutzensection_header {
-        width: 20%;
+    
+    .nutzensection_card {
+        width: 40%;
+        height: 380px;
+        padding: 20px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 6px;
+        margin: 15px; 
+        background-color: black;
+    
     }
+
+    .nutzensection_card_title h4{
+        margin-top: 15px;
+    }
+    
 }
 
 
-@media only screen and (max-width: 920px) {
+@media screen and (max-width: 1000px) {
     .nutzen_wrapper {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
+        padding-left: 0px;
+        
     }
 
     .nutzensection_header {
-        width: 100%;
+        width: 80%; 
+        text-align: center;
+        margin: 0 auto;
+        padding: 35px;
+        
+        
+    }
+    
+    .nutzensection_header h2 {
+        font-size: 2.5rem;
+       
     }
 
     .nutzensection_content {
+        flex-direction: row;
         width: 100%;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        
     }
+    
+    .nutzensection_card {
+        width: 40%;
+        height: 320px;
+        padding: 20px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 6px;
+        margin: 15px; 
+        background-color: black;
+    
+    }
+
+    .nutzensection_card_title h4{
+        margin-top: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .nutzen_wrapper {
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .nutzensection_header {
+        width: 100%; 
+        text-align: center;
+        padding: 35px;
+        
+        
+    }
+    
+    .nutzensection_header h2 {
+        font-size: 1.5rem;
+    }
+
+    .nutzensection_content {
+        flex-direction: row;
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .nutzensection_card {
+        width: 40%;
+        height: 350px;
+        padding: 20px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 6px;
+        margin: 15px; 
+        background-color: black;
+    
+    }
+
+    .nutzensection_card_title h4{
+        margin-top: 15px;
+    }
+    
+}
+
+
+@media screen and (max-width: 620px) {
+    .nutzen_wrapper {
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .nutzensection_header {
+        width: 100%; 
+        text-align: center;
+        padding: 35px;
+        
+        
+    }
+    
+    .nutzensection_header h2 {
+        font-size: 1.5rem;
+    }
+
+    .nutzensection_content {
+        flex-direction: row;
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+        
+    }
+    
+    .nutzensection_card {
+        width: 40%;
+        height: 400px;
+        padding: 20px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 6px;
+        margin: 15px; 
+        background-color: black;
+    
+    }
+
+    .nutzensection_card_title h4{
+        margin-top: 15px;
+        font-size: 0.8rem;
+    }
+
+    .nutzensection_card p{
+        margin-top: 15px;
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media screen and (max-width: 515px) {
+    .nutzen_wrapper {
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .nutzensection_header {
+        width: 100%; 
+        text-align: center;
+        padding: 35px;
+        
+        
+    }
+    
+    .nutzensection_header h2 {
+        font-size: 1.5rem;
+    }
+
+    .nutzensection_content {
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+        
+    }
+    
+    .nutzensection_card {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 6px;
+        margin: 15px; 
+        background-color: black;
+    
+    }
+
+    .nutzensection_card_title h4{
+        margin-top: 15px;
+    }
+
+    .nutzensection_card p {
+        padding-bottom: 25px;
+    }
+
+    
 }
