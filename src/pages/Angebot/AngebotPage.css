@@ -202,7 +202,8 @@
     
     .workshop_info_side_right iframe {
        margin: 0 auto;
-       width: 50%;
+       width: 70%;
+
         }
     }
 
@@ -241,7 +242,7 @@
 
     .workshop_info_text p {
         text-align: left;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .workshop_info_card {
@@ -251,7 +252,6 @@
 
     .workshop_info_side_left {
         width: 100%;
-        
     }
 
     .workshop_info_side_right {

@@ -56,7 +56,7 @@ function Analysetool() {
             <br></br>
             <p>DISG®: ist ein Akronym aus den <b>vier Grundverhaltenstendenzen:</b> Dominant, Intuitiv, Stetig, Gewissenhaft. Diese sind mit unterschiedlichen Farben hinterlegt, weshalb es umgangssprachlich auch <b>„Vierfarben Modell“</b> genannt wird.</p>
             <br></br>
-            <p>Es ist ein <b>Quadranten Modell</b>, geteilt durch die Koordinatenachsen aufgabenorientiert/menschenorientiert, introvertiert/extrovertiert woraus sich die vier Quadranten <b>D</b>, <b>i</b>, <b>S</b> und <b>G</b> ergeben. Um das Koordinatensystem sind kreisrund acht verschiedene Prioritäten angeordnet. Daraus ergeben sich <b>12 verschiedene Persönlichkeitstypen.</b></p>
+            <p>Es ist ein <b>Quadranten Modell</b>, geteilt durch die Koordinatenachsen aufgabenorientiert / menschenorientiert, introvertiert / extrovertiert woraus sich die vier Quadranten <b>D</b>, <b>i</b>, <b>S</b> und <b>G</b> ergeben. Um das Koordinatensystem sind kreisrund acht verschiedene Prioritäten angeordnet. Daraus ergeben sich <b>12 verschiedene Persönlichkeitstypen.</b></p>
             <br></br>
             <p>Jeder Persönlichkeitstyp hat eigene <b>Prioritäten, Stärken, Schwächen, Stressfaktoren und Motivatoren,</b> die in den unterschiedlichen Profilen genauer untersucht werden. Da es sich um bevorzugte Verhaltenspräferenzen handelt, hat man die Möglichkeit diese weiterzuentwickeln oder zu ändern, wenn man daran arbeiten möchte.</p>
             <b></b>
