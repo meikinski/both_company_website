@@ -121,9 +121,7 @@ input[type=submit]:hover{
     
 }
 
-
-
-@media only screen and (max-width:380px) {
+@media only screen and (max-width:1024px) {
     .wrapper_kontaktPage {
         flex-direction: column;
         height: auto;
@@ -131,13 +129,13 @@ input[type=submit]:hover{
     }
 
     .headerKontakt {
-        padding: 15% 5%;
+        padding: 10% 5%;
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .headerKontakt h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         font-weight: 700;
         letter-spacing: 1.8px;
     }
@@ -151,9 +149,13 @@ input[type=submit]:hover{
     }
     
     .wrapper_formular {
-        width: 100%;    
+        width: 80%; 
+        margin-bottom: 10%;   
     }
 }
+
+
+
 
 @media only screen and (max-width:768px) {
     .wrapper_kontaktPage {
@@ -188,7 +190,7 @@ input[type=submit]:hover{
     }
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:380px) {
     .wrapper_kontaktPage {
         flex-direction: column;
         height: auto;
@@ -196,13 +198,13 @@ input[type=submit]:hover{
     }
 
     .headerKontakt {
-        padding: 10% 5%;
+        padding: 15% 5%;
         width: 100%;
-        text-align: left;
+        text-align: center;
     }
 
     .headerKontakt h2 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-weight: 700;
         letter-spacing: 1.8px;
     }
@@ -216,10 +218,21 @@ input[type=submit]:hover{
     }
     
     .wrapper_formular {
-        width: 80%; 
-        margin-bottom: 10%;   
+        width: 100%;    
+    }
+
+    .name_wrapper {
+        flex-direction: column;
+    }
+    .vorname_wrapper {
+        
+        margin-right: 0%;
+    }
+    
+    .nachname_wrapper {
+        
+        margin-left: 0%;
     }
 }
-
 
 
