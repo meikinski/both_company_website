@@ -65,7 +65,7 @@ function Angebot() {
                     <p>50678 Köln</p>
                   </div>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.2093641227507!2d6.958710715484669!3d50.91984397954286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf25943850cffd%3A0x772f7788f0580e57!2sDie%20Etage%20-%20Workshops%2C%20Produktion%2C%20Streaming!5e0!3m2!1sde!2sde!4v1650205390620!5m2!1sde!2sde" width="400" height="200" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="karte"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.2093641227507!2d6.958710715484669!3d50.91984397954286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf25943850cffd%3A0x772f7788f0580e57!2sDie%20Etage%20-%20Workshops%2C%20Produktion%2C%20Streaming!5e0!3m2!1sde!2sde!4v1650205390620!5m2!1sde!2sde" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="karte"></iframe>
               </div>
               <br></br>
                 <p>Interesse? Dann kontaktiere uns gerne über unser <NavLink to="/kontakt">Kontaktformular</NavLink> oder klicke <a href="https://www.eventbrite.de/o/both-cologne-43680950163" target="_blank" rel="noreferrer">hier</a>, um direkt zur Buchung zu gelangen.</p>
