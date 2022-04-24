@@ -33,7 +33,7 @@ function Analysetool() {
         <div className="counter_wrapper">
           <div className="counter">
             <div className='counter_content'>
-              <CountUp start={0} end={45000000} duration={5} delay={3} redraw={true} separator=","/>
+              <CountUp start={0} end={45000000} duration={4} delay={2} redraw={true} separator=","/>
               <h2>Anwendungen</h2>
             </div>
           </div>
