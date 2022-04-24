@@ -67,7 +67,7 @@ function ÜberUns() {
               <h6>Co-Founder</h6>
               <p>„Ich bin begeistert und kreiere Ideen, um andere zu inspirieren und mitzureißen, das treibt mich an.“</p>
               <br></br>
-              <button className="btn btn-4" onClick={handleShowMoreAntje}>Mehr über mich</button>
+              <button className="btn btn-4" id="#button_überuns" onClick={handleShowMoreAntje}>Mehr über mich</button>
               {showMoreAntje && (
                 <>
               <ul>
