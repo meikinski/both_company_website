@@ -10,7 +10,7 @@ export default function VideoCarousel() {
             <div className="mb-display">
               <div className="mb-screen-position">
                 <div className="mb-screen">
-                   <iframe width="960" height="480" src="https://www.youtube.com/embed/GUEZCxBcM78?rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;controls=2" frameBorder="0" title="video"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zGDzdps75ns?autoplay=1?mute=1" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>                
                 </div>
               </div>
             </div>

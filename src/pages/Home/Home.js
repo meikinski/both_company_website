@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import '../../App.css';
 import Hero from "../../components/Hero/Hero"
 import Story from '../../components/Story/Story';
@@ -16,6 +17,17 @@ function Home() {
 
     return (
       <div className="App">
+        <Helmet>
+                <title>Both: Cologne - Workshops und Trainings in Köln</title>
+                <meta
+                    name="description"
+                    content="Workshops und Trainings auf Basis der DisG-Persönlichkeitsprofile in Köln. Lerne deine Stärken und Schwächen kennen und nutze dieses Wissen im Beruf und Alltag. "
+                />
+                <meta
+                    name="keywords"
+                    content="Workshop, Training, Köln, DisG, Persönlichkeitsentwicklung, Berufsalltag, Kommunikation, Potenziale"
+                />
+            </Helmet>
         <Hero imageSrc={Cologne} title={<h1>Wir sind <br></br>both: cologne</h1>} description={<p>Workshops und Training auf Basis der DiSG&reg;-Persönlichkeitsprofile.</p>}/>
         <Story imageSrc={Both_white} title={"Unsere Story"} text={"Vom Reden zum machen. Wenn wir nicht selbst etwas ändern, wer dann? Für uns war klar: wir wollen das gemeinsam machen. Wir starten ein Business."}/>
         <VideoCarousel />

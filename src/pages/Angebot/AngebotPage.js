@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import "../../components/Hero/Hero.css"
 import Hero from "../../components/Hero/Hero"
 import './AngebotPage.css'
@@ -12,6 +13,17 @@ import Workshop2 from '../../assets/workshop_background1.jpg'
 function Angebot() {
     return (
       <div className="App">
+        <Helmet>
+                <title>Both: Cologne - Workshop</title>
+                <meta
+                    name="description"
+                    content="In dem Workshop DiSG&amp;Me in Köln lernst du mehr über deinen Persönlichkeitstypen, deine Stärken und Schwächen kennen und wie du dieses Wissen im Berufsalltag einsetzen kannst. "
+                />
+                <meta
+                    name="keywords"
+                    content="Workshop, Training, Köln, Persönlichkeitsentwicklung, DiSG"
+                />
+            </Helmet>
         <Hero imageBlk={Workshop2} id="hero" title={<h1>Unser Angebot</h1>} title2={<p>Wie bin ich? Wie wirke ich? Wie handle ich? Und was bringt mir dieses Wissen im Arbeitsalltag?</p>} />
         <div className="workshop_wrapper">
           <div className="workshop_section">

@@ -1,13 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './Footer.css';
-import Logo from '../../assets/both_white.png';
 
 
     const Footer = () => (
         <div className="footer_wrapper">
         <div className="footer">
-            
             <address className="contact">
                 <b>BOTH: COLOGNE</b>
                 <br/>
@@ -17,9 +15,9 @@ import Logo from '../../assets/both_white.png';
                 <p><a href="mailto:info@both-cologne.de">info@both-cologne.de</a></p>
                 <p><NavLink className="navbar" to="/Impressum">Impressum</NavLink></p>
             </address>
-            <div className="logo_footer">
-                <img src={Logo} alt="Logo" className="logo_footer_img" loading='lazy'/>
-                
+            <div className="social">
+                <a href='https://www.instagram.com/both_cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/glyph-neue/344/ffffff/instagram-new.png" className="icon" alt=""/></a>
+                <a href='https://www.linkedin.com/company/both-cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/android/344/ffffff/linkedin.png" className="icon" alt=""/></a>
             </div>
             
             <div className="about">
@@ -32,13 +30,9 @@ import Logo from '../../assets/both_white.png';
                  
         </div>
         <div className="social_header">
-        <p>Folge uns:</p>
+        
         </div>
-        <div className="social">
-                
-                <a href='https://www.instagram.com/both_cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/344/instagram-new.png" className="icon" alt=""/></a>
-                <a href='https://www.linkedin.com/company/both-cologne/' target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/452/linkedin.png" className="icon" alt=""/></a>
-            </div> 
+        
         </div>
     );
     

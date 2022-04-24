@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import CountUp from 'react-countup';
 import './Analysetool.css';
 import Hero from '../../components/Hero/Hero';
@@ -17,6 +18,17 @@ function Analysetool() {
   
     return (
       <div className="App">
+        <Helmet>
+                <title>Both: Cologne - Das DiSG-Modell</title>
+                <meta
+                    name="description"
+                    content="Das DiSG-Persönlichkeitmodell ist das meistverwendete Tool der Welt. Es wird eingesetzt in: Kommunikationstrainings, Persönlichketsentwicklung, Führungskräftetraining, Teamentwicklung und mehr."
+                />
+                <meta
+                    name="keywords"
+                    content="DiSG, Persönlichkeitsentwicklung, Kommunikation, Teamentwicklung, Training, Führungskräfte"
+                />
+            </Helmet>
         <Hero imageBlk={Disg} title={<h1>Das DiSG-Modell</h1>} title2={<p>Wir sind zertifiziert und gehören zum offiziellen Trainer Netzwerk des Wiley Verlags für DISG® Persönlichkeitsprofile.</p>}/>
         <div className="counter_wrapper">
           <div className="counter">

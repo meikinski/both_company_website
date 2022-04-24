@@ -1,8 +1,9 @@
-import './KontaktPage.css'
-import Logo_white from '../../assets/both_white.png'
 import { useRef } from 'react'; 
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import emailjs from '@emailjs/browser';
+import './KontaktPage.css'
+import Logo_white from '../../assets/both_white.png'
 
 
 export default function Kontakt_Page() {
@@ -30,6 +31,17 @@ export default function Kontakt_Page() {
 
     return(
         <div className='wrapper_kontaktPage'>
+            <Helmet>
+                <title>Both: Cologne - Kontaktiere uns</title>
+                <meta
+                    name="description"
+                    content="Kontaktiere uns bei Interesse an unserem Workshop."
+                />
+                <meta
+                    name="keywords"
+                    content="Workshop, Köln, Persönlichkeitsentwicklung"
+                />
+            </Helmet>
             <div className='headerKontakt'>
                 <h2>Hast du Fragen oder Interesse an unserem Workshop?</h2>
                 <h6>Schreibe uns eine Nachricht und wir melden uns bei dir.</h6>

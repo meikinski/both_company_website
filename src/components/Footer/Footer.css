@@ -8,66 +8,17 @@
     font-size: 0.9rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 35px;
+    justify-content: space-around;
+    padding: 55px 0px;
     margin-bottom: 0;
     background-color: black;
     color: white;
 }
 
-.logo_footer {
-    display: flex;
-    width: 30%;
-    height: auto;
-    opacity: 0.8;
-    justify-content: center;
-    align-items: center;
-   
-}
-
-.logo_footer_img {
-    width: 70%;
-    height: 70%;
-   
-}
-
-.about {
-   width: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.social {
-   display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-}
-.social a {
-    padding: 5px;
-}
-.social_header {
-    display: flex;
-    color: white;
-    font-size: 1rem;
-    margin-top: 10px;
-    justify-content: center;
-}
-
-.social img {
-    height: 50px;
-    width: auto;
-    background-color: black;
-    opacity: 1;
-}
-
 .contact {
     font-family: 'Montserrat', sans-serif;
-    
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .contact p {
@@ -79,16 +30,44 @@
 .contact a {
     text-decoration: none;
     color: white;
-
 }
 
 .contact a:hover {
     color: rgba(235, 95, 74, 0.9);
 }
 
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: auto 0px;
+}
+
+.social a {
+    padding: 5px;
+}
+
+.social_header {
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.social img {
+    height: 50px;
+    width: auto;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
 
 .navbar_link_footer {
-    
     text-decoration: none;
     color: white;
     padding: 0.2rem;
@@ -98,16 +77,12 @@
 .navbar_link_footer:hover {
     color: rgba(235, 95, 74, 0.9);
     font-weight: bold;
-    
 }
 
 
 @media screen and (max-width: 600px) {
     
-    .logo_footer {
-        display: none;
-    }
-
+    
     .about {
        display: none;
 }

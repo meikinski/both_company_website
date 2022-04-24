@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
+import { Helmet } from "react-helmet";
 import './ÜberUns.css'
 import "../../components/Hero/Hero.css"
 import Hero from "../../components/Hero/Hero"
@@ -23,6 +24,17 @@ function ÜberUns() {
 
     return (
       <div className="app">
+        <Helmet>
+          <title>Both: Cologne - Über Uns</title>
+          <meta
+            name="description"
+            content="Wir sind zertifizierte Trainer für das meistgenutzte Persönlichkeitstool der Welt: DiSG."
+            />
+          <meta
+            name="keywords"
+            content="Trainer, Persönlichkeitstool, DiSG, bewusste Selbstwahrnemung, Kommunikation"
+            />
+        </Helmet>
         <Hero imageSrc={Gründerinnen} title={<h1>Über Uns</h1>} title2={<p>A SUCCESSFUL TEAM BEATS WITH ONE HEART</p>} />
         <div className="ueberuns_section_wrapper">
           <div className="section_wrapper">
