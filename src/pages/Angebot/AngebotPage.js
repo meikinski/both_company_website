@@ -8,11 +8,18 @@ import Datum from '../../assets/datum.png'
 import Uhr from '../../assets/uhr.png'
 import Kosten from '../../assets/euro.png'
 import Workshop2 from '../../assets/workshop_background1.jpg'
+import { motion } from 'framer-motion';
+
 
 
 function Angebot() {
     return (
-      <div className="App">
+      <motion.div 
+      className="angebot"
+      intial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+      >
         <Helmet>
                 <title>Both: Cologne - Workshop</title>
                 <meta
@@ -84,7 +91,7 @@ function Angebot() {
                 <p>Interesse? Dann kontaktiere uns gerne über unser <NavLink to="/kontakt">Kontaktformular</NavLink> oder klicke <a href="https://www.eventbrite.de/o/both-cologne-43680950163" target="_blank" rel="noreferrer">hier</a>, um direkt zur Buchung zu gelangen.</p>
             </div>
           </div>
-        </div>
+        </motion.div>
         
     );
   }

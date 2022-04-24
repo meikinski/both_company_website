@@ -11,6 +11,8 @@ import Glühbirne from "../../assets/Glühbirne.png"
 import Prozess from "../../assets/prozess.png"
 import Positiv from "../../assets/positive.png"
 import Group from '../../assets/group.png'
+import { motion } from 'framer-motion';
+
 
 function ÜberUns() {
   const [showMoreAntje, setShowMoreAntje] = useState(false);
@@ -23,7 +25,12 @@ function ÜberUns() {
 
 
     return (
-      <div className="app">
+      <motion.div 
+      className="ueberuns"
+      intial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+      >
         <Helmet>
           <title>Both: Cologne - Über Uns</title>
           <meta
@@ -153,7 +160,7 @@ function ÜberUns() {
               </div>
             </div> 
             
-      </div>
+      </motion.div>
       
 
     );

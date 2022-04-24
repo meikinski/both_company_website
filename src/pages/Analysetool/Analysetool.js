@@ -7,6 +7,8 @@ import Hero from '../../components/Hero/Hero';
 import Disg_Logo from '../../assets/Disg.png';
 import Favicon from '../../assets/favicin-image.png';
 import Disg from '../../assets/disg_header.jpg';
+import { motion } from 'framer-motion';
+
 
 
 function Analysetool() {
@@ -17,7 +19,12 @@ function Analysetool() {
 
   
     return (
-      <div className="App">
+      <motion.div 
+      className="analysetool"
+      intial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+      >
         <Helmet>
                 <title>Both: Cologne - Das DiSG-Modell</title>
                 <meta
@@ -167,7 +174,7 @@ function Analysetool() {
             <NavLink to="/kontakt"><button className='btn btn-4 btn-sep icon-send'>Kontakt</button></NavLink>
           </div>
         </div> 
-      </div>
+      </motion.div>
     );
   }
   

@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet';
 import emailjs from '@emailjs/browser';
 import './KontaktPage.css'
 import Logo_white from '../../assets/both_white.png'
+import { motion } from 'framer-motion';
+
 
 
 export default function Kontakt_Page() {
@@ -30,7 +32,12 @@ export default function Kontakt_Page() {
 
 
     return(
-        <div className='wrapper_kontaktPage'>
+        <motion.div 
+        className='wrapper_kontaktPage'
+        intial={{opacity: 0}}
+        animate={{opacity: 1}}
+        exit={{opacity: 0}}
+        >
             <Helmet>
                 <title>Both: Cologne - Kontaktiere uns</title>
                 <meta
@@ -67,7 +74,7 @@ export default function Kontakt_Page() {
         </form>
         
        </div> 
-       </div>   
+       </motion.div>   
     )
 }
  
