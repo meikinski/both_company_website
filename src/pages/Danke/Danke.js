@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import './Danke.css'
 
+
 export default function Kontakt2() {
     const navigate = useNavigate();
     const goBack = () => {

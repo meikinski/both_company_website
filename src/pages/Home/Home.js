@@ -11,12 +11,18 @@ import Angebot_Pic from '../../assets/Workshop.jpg'
 import Both_white from '../../assets/both_white.png'
 import Who from '../../assets/whoami.jpg'
 import Cologne from '../../assets/cologne.jpg';
+import { motion } from 'framer-motion';
 
 
 function Home() {
 
     return (
-      <div className="App">
+      <motion.div 
+      className="home"
+      intial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+      >
         <Helmet>
                 <title>Both: Cologne - Workshops und Trainings in Köln</title>
                 <meta
@@ -35,7 +41,7 @@ function Home() {
         <Nutzen />
         <Disg imageSrc={Who} title={"Das DiSG Modell"} title2={"Wir sind zertifiziert und gehören zum offiziellen Trainer Netzwerk des Wiley Verlags für DISG® Persönlichkeitsprofile."}/>
         <Kontakt />
-      </div>
+      </motion.div>
     );
   }
   
