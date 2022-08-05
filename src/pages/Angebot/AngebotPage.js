@@ -35,14 +35,16 @@ function Angebot() {
         <div className="workshop_wrapper">
           <div className="workshop_section">
             <h2>Workshop: "DiSG® &amp; ME"</h2>
-              <p>In unerem Einsteigerworkshop <b>"DiSG® &amp; ME"</b> wollen wir folgende Fragen beantworten: Wie bin ich? Wie wirke ich? Wie handle ich? Und was bringt mir dieses Wissen im Arbeitsalltag? </p> 
-              <p>Du triffst drei bis fünf andere Teilnehmer:innen, um gemeinsam einen Feierabend zu verbringen, bei dem wir uns in Wohlfühlatmosphäre über Persönlichkeitstypen austauschen.</p>
-              <p>Als zertfizierte DisG®-Trainerinnen bearbeiten wir im Workshop die Grundlagen, aber vor allem die Anwendung auf konkrete Arbeitssituationen.</p>
+              <p>In unserem Einsteigerworkshop <b>"DiSG® &amp; ME"</b> wollen wir folgende Fragen beantworten: Wie bin ich? Wie wirke ich? Wie handle ich? Und was bringt mir dieses Wissen im Arbeitsalltag? </p> 
+              <p>Du triffst drei bis fünf andere Teilnehmer*innen, um gemeinsam einen Feierabend zu verbringen, bei dem wir uns in Wohlfühlatmosphäre über Persönlichkeitstypen austauschen.</p>
+              <p>Als zertfizierte DiSG®-Trainerinnen bearbeiten wir im Workshop die Grundlagen, aber vor allem die Anwendung auf konkrete Arbeitssituationen aus dem Berufsalltag der Teilnehmer*innen.</p>
+              <p>Wir halten den Workshop extra klein, so dass eine persönliche Atmosphäre entsteht und
+                  Jede / Jeder zu Wort kommen kann.</p>
             <h3>Inhalt des Workshops:</h3>
               <ul>
                 <li>&raquo; Du machst einen <b>DiSG®-Kurztest</b> und lernst mehr über deinen <b>Persönlichkeitstypen</b>, deine <b>Stärken</b> und deine <b>Schwächen</b> im Arbeitskontext.</li><br></br>
                 <li>&raquo; Wir sprechen über deine <b>Wirkung</b> auf andere und das <b>Zusammenspiel</b> mit anderen Persönlichkeitstypen</li><br></br>
-                <li>&raquo; Du wendest DiSG® auf Arbeitssituationen aus deinem und dem Berufsalltag der anderen Teilnehmer:innen an.</li>
+                <li>&raquo; Du wendest DiSG® auf Arbeitssituationen aus deinem und dem Berufsalltag der anderen Teilnehmer&Star;innen an.</li>
               </ul>
             </div>
           <div className="workshop_section_info">
@@ -52,8 +54,8 @@ function Angebot() {
                   <img src={Datum} alt="Datum"/>
                 </div>
                 <div className="workshop_info_text">
-                  <p>05.05.2022</p>
-                  <p>23.06.2022</p>
+                  <p>11.08.2022</p>
+                  <p>06.10.2022</p>
                 </div>
                 </div>
                 <div className="workshop_info_card">
@@ -61,7 +63,7 @@ function Angebot() {
                     <img src={Uhr} alt="Uhr"/>
                   </div>
                   <div className="workshop_info_text">
-                  <p>17.00 - 21.00 Uhr</p>
+                  <p>17.30 - 21.30 Uhr</p>
                   </div>
                 </div>
                 <div className="workshop_info_card">
@@ -69,8 +71,8 @@ function Angebot() {
                     <img src={Kosten} alt="Kosten"/>
                   </div>
                   <div className="workshop_info_text"> 
-                  <p>129,99€</p>
-                  <p>inkl. Snacks&amp;Getränken</p>
+                  <p>129,90€ brutto</p>
+                  <p>inkl. Workbook</p>
                   </div>
                 </div>
               </div>
@@ -88,7 +90,7 @@ function Angebot() {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.2093641227507!2d6.958710715484669!3d50.91984397954286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf25943850cffd%3A0x772f7788f0580e57!2sDie%20Etage%20-%20Workshops%2C%20Produktion%2C%20Streaming!5e0!3m2!1sde!2sde!4v1650205390620!5m2!1sde!2sde" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="karte"></iframe>
               </div>
               <br></br>
-                <p>Interesse? Dann kontaktiere uns gerne über unser <NavLink to="/kontakt">Kontaktformular</NavLink> oder klicke <a href="https://www.eventbrite.de/o/both-cologne-43680950163" target="_blank" rel="noreferrer">hier</a>, um direkt zur Buchung zu gelangen.</p>
+                <p>Interesse? Dann kontaktiere uns gerne über unser <NavLink to="/kontakt">Kontaktformular</NavLink>.</p>
             </div>
           </div>
         </motion.div>

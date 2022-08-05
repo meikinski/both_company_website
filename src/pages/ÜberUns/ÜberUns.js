@@ -46,10 +46,14 @@ function ÜberUns() {
         <div className="ueberuns_section_wrapper">
           <div className="section_wrapper">
             <h2>Unsere Story</h2>
-            <p>Berufseinstieg, Erfolge, Rollen im Unternehmen, Jobsuche, Veränderung, Mitarbeiterentwicklung, Teamkonstellationen, Konfliktsituationen – wir zwei sind seit einigen Jahren in der Berufswelt angekommen und haben schon immer gerne gemeinsam über die Arbeit und über uns bei der Arbeit reflektiert, Situationen besprochen und uns gegenseitig unterstützt.
+            <p>Berufseinstieg, Aufstieg, Erfolge, Rollen im Unternehmen, Teamkonstellationen, Jobsuche, Veränderung, Konfliktsituationen – wir sind beide seit einigen Jahren in der Berufswelt angekommen und haben schon immer gerne gemeinsam über unsere Arbeit reflektiert, Situationen besprochen und uns gegenseitig unterstützt
             </p>
             <br></br>
-            <p>Nach den ersten Jobjahren und den ersten positiven, wie negativen Erfahrungen kamen wir in unseren Gesprächen immer öfter an den Punkt, dass man „das doch besser machen müsse“, „gemeinsam viel mehr erreichen könne“, „dass Gleichberechtigung doch irgendwie konsequenter Einzug in die Arbeitswelt erhalten müsse “.</p>
+            <p>Nach den ersten Jobjahren und den ersten positiven, wie negativen Erfahrungen kamen wir
+              in unseren Gesprächen immer öfter an den Punkt, dass Themen wie Selbstreflektion,
+              Persönlichkeitsentwicklung, Teamentwicklung, transparente Kommunikation und
+              gegenseitige Unterstützung viel mehr und konsequenter Einzug in die eigene Arbeitswelt
+              erhalten müssten</p>
           </div>
           <div className="section_wrapper">
             <h3>Vom Reden zum Machen</h3>
@@ -78,7 +82,7 @@ function ÜberUns() {
               {showMoreAntje && (
                 <>
               <ul>
-                <li>✓ Zertifizierte DISG®-Trainerin</li>
+                <li>✓ Zertifizierte DiSG®-Trainerin</li>
                 <li>✓ Master of Science mit Schwerpunkt Marketing</li>
                 <li>✓ Bachelor of Commerce mit Schwerpunkt strategisches Marketing in Emmen (NL) und Tandil (ARG)</li>
               </ul>
@@ -87,7 +91,7 @@ function ÜberUns() {
               <br></br>
               <p>In den letzten 10 Jahren habe ich in vier Ländern gelebt und arbeite in einem internationalen Team. Dadurch habe ich ein breites Wissen über interkulturelle und vernetzte Zusammenarbeit.</p>
               <br></br>
-              <p>&raquo; <b>Kernkompetenzen: Lösungsorientiertes Denken  Empathie</b></p></>)}
+              <p>&raquo; <b>Kernkompetenzen: Lösungsorientiertes Denken &amp; Empathie</b></p></>)}
             </div>
           </div>  
           <div className="card">
@@ -103,14 +107,19 @@ function ÜberUns() {
               {showMoreLena && (
                 <>
               <ul>
-                <li>✓ Zertifizierte DISG®-Trainerin</li>
+                <li>✓ Zertifizierte DiSG®-Trainerin</li>
                 <li>✓ Bachelor of Communication mit Schwerpunkt strategische Kommunikation in Groningen (NL), Göteborg (SWE) und Köln.</li>
-                <li>✓ Gründungsmitglied und Partnerin in der Kreativagentur onliveline – Büro für Konzept und Kommunikation (live, online, hybrid, VR).</li>
+                <li>✓ Senior Projektleitung in der Kreativagentur onliveline – Büro für Konzept und Kommunikation (live, online, hybrid, VR).</li>
               </ul>
               <br></br>
               <p>Seit 9 Jahren arbeite ich bei onliveline in der Kreation und Live-Kommunikationsberatung. Mein Schwerpunkt liegt hier vor allem auf dem Erzeugen von Inhalten - gemeinsam mit dem Kunden - und diese dann wirkungsvoll, verständlich und nachhaltig in Szene zu setzen.</p>
               <br></br>
-              <p>Außerdem verantworte ich die Personalentwicklung unseres 8-köpfigen Teams.</p>
+              <p>In der Zusammenarbeit mit immer neuen und unterschiedlichen Kund*innen und
+                  Projektteams lege ich meinen Fokus vor allem auf eine transparente und offene Kommunikation und nutze das DiSG®-Tool, um meine Projektteam-Mitglieder in der
+                  Zusammenarbeit zu unterstützen, in dem ich eine gemeinsame Verständnisebene für die
+                  unterschiedlichen Persönlichkeiten im Team aufbaue.
+                  So kann ich zu einem effizienten Produktionsflow und einer guten Stimmung im Team
+                  beitragen.</p>
               <br></br>
               <p>&raquo; <b>Kernkompetenzen: Kreativität &amp; Pragmatismus</b></p></>)}
             </div>
@@ -126,7 +135,7 @@ function ÜberUns() {
                 <img src={Glühbirne} alt="Glühbirne" />
                 </div>
                 <h5>Qualtität durch Wissen</h5>
-                <p>Wir sind zertifizierte Trainer für das am meisten genutzte Persönlichkeitstool der Welt. Das Tool macht persönliche Qualitäten sichtbar. Dadurch haben Einzelpersonen und Teams die Möglichkeit, die Qualität ihrer Arbeit nachhaltig zu reflektieren und zu steigern.</p>
+                <p>Wir sind zertifizierte Trainerinnen für das am meisten genutzte Persönlichkeitstool der Welt. Das Tool macht persönliche Qualitäten sichtbar. Dadurch haben Einzelpersonen und Teams die Möglichkeit, die Qualität ihrer Arbeit nachhaltig zu reflektieren und zu steigern.</p>
             </div>
             <div className="werte_card">
             <div className="icon">
@@ -140,14 +149,14 @@ function ÜberUns() {
                 <img src={Positiv} alt="Glühbirne" />
               </div>
                 <h5>Nachhaltig positiv</h5>
-                <p>Durch die Verbindung von Persönlichkeits- und Teamanalyse mit konkreten Handlungsempfehlungen für den Arbeitsalltag, schaffen wir eine positive Veränderung in der Zusammenarbeit mit Kollegen, Kunden und Vorgesetzten.</p>
+                <p>Durch die Verbindung von Persönlichkeits- und Teamanalyse mit konkreten Handlungsempfehlungen für den Arbeitsalltag, schaffen wir eine positive Veränderung in der Zusammenarbeit mit Kolleg*innen, Kund*innen und Vorgesetzten.</p>
             </div>
             <div className="werte_card">
             <div className="icon">
                 <img src={Group} alt="Glühbirne" />
               </div>
                 <h5>Bewusste Wahrnehmung</h5>
-                <p>Wir ermöglichen eine bewusste Selbstwahrnehmung, sowie verschiedene Ausprägungen und Verhaltenstendenzen von Kollegen und Kunden, zu verstehen. Dadurch schaffen wir Transparenz und ein positives Bewusstsein für Diversität, Bedürfnisse, Qualitäten, Erfolgs- sowie Konfliktpotenziale im Berufsleben.</p>
+                <p>Wir ermöglichen eine bewusste Selbstwahrnehmung, sowie verschiedene Ausprägungen und Verhaltenstendenzen von Kolleg*innen und Kund*innen, zu verstehen. Dadurch schaffen wir Transparenz und ein positives Bewusstsein für Diversität, Bedürfnisse, Qualitäten, Erfolgs- sowie Konfliktpotenziale im Berufsleben.</p>
             </div>
             </div>
         </div>

@@ -36,7 +36,7 @@ function Analysetool() {
                     content="DiSG, Persönlichkeitsentwicklung, Kommunikation, Teamentwicklung, Training, Führungskräfte"
                 />
             </Helmet>
-        <Hero imageBlk={Disg} title={<h1>Das DiSG-Modell</h1>} title2={<p>Wir sind zertifiziert und gehören zum offiziellen Trainer Netzwerk des Wiley Verlags für DISG® Persönlichkeitsprofile.</p>}/>
+        <Hero imageBlk={Disg} title={<h1>Das DiSG&#174;-Modell</h1>} title2={<p>Wir sind zertifiziert und gehören zum offiziellen Trainer*innen Netzwerk des Wiley Verlags für DISG® Persönlichkeitsprofile.</p>}/>
         <div className="counter_wrapper">
           <div className="counter">
             <div className='counter_content'>
@@ -66,14 +66,14 @@ function Analysetool() {
 
       <div className='disg_section_wrapper'>
         <div className="disg_section_heading">
-        <h2>Was genau ist das DiSG Modell?</h2>
+        <h2>Was genau ist das DiSG-Modell?</h2>
         </div>
         <div className='disg_section'>
           <img src={Disg_Logo} alt="DiSG Logo" className='disg_section_picture' onClick={() => showMore()}/>
           <div className='disg_section_text'>
             <p>Das DiSG® Persönlichkeitsmodell wurde 1972 von John G. Geier, Psychologe und Leiter der Verhaltenswissenschaften an der University of Minnesota, veröffentlicht.</p>
             <br></br>
-            <p>DISG®: ist ein Akronym aus den <b>vier Grundverhaltenstendenzen:</b> Dominant, Intuitiv, Stetig, Gewissenhaft. Diese sind mit unterschiedlichen Farben hinterlegt, weshalb es umgangssprachlich auch <b>„Vierfarben Modell“</b> genannt wird.</p>
+            <p>DiSG®: ist ein Akronym aus den <b>vier Grundverhaltenstendenzen:</b> Dominant, Intuitiv, Stetig, Gewissenhaft. Diese sind mit unterschiedlichen Farben hinterlegt, weshalb es umgangssprachlich auch <b>„Vierfarben-Modell“</b> genannt wird.</p>
             <br></br>
             <p>Es ist ein <b>Quadranten Modell</b>, geteilt durch die Koordinatenachsen aufgabenorientiert / menschenorientiert, introvertiert / extrovertiert woraus sich die vier Quadranten <b>D</b>, <b>i</b>, <b>S</b> und <b>G</b> ergeben. Um das Koordinatensystem sind kreisrund acht verschiedene Prioritäten angeordnet. Daraus ergeben sich <b>12 verschiedene Persönlichkeitstypen.</b></p>
             <br></br>
