@@ -23,6 +23,7 @@ export default function AnimatedRoutes() {
         <Route path='/angebot' element={<AngebotPage />}></Route>
         <Route path='/kontakt' element={<KontaktPage />}></Route>
         <Route path='/danke' element={<Danke />}></Route>
+        <Route path="*" element={<Home />} />
         <Route path='/impressum' element={<Impressum />}></Route>
       </Routes>
       </AnimatePresence>
