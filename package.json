@@ -52,9 +52,9 @@
       "last 1 safari version"
     ]
   },
-  "rewrites": [
+  "redirects": [
 		{
-			"source": "(.*)",
+			"source": "/.*",
 			"destination": "/index.html"
 		}
 	]
