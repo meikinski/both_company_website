@@ -54,7 +54,7 @@ function Angebot() {
                   <img src={Datum} alt="Datum"/>
                 </div>
                 <div className="workshop_info_text">
-                  <p>11.08.2022</p>
+                  
                   <p>06.10.2022</p>
                 </div>
                 </div>
@@ -71,7 +71,7 @@ function Angebot() {
                     <img src={Kosten} alt="Kosten"/>
                   </div>
                   <div className="workshop_info_text"> 
-                  <p>129,90€ brutto</p>
+                  <p>129€ brutto</p>
                   <p>inkl. Workbook</p>
                   </div>
                 </div>
