@@ -39,7 +39,7 @@ function ÜberUns() {
             />
           <meta
             name="keywords"
-            content="Trainer, Persönlichkeitstool, DiSG, bewusste Selbstwahrnemung, Kommunikation"
+            content="Trainer, Workshop, Persönlichkeitstool, DiSG, Weiterentwicklung, Kommunikationstraining"
             />
         </Helmet>
         <Hero imageSrc={Gründerinnen} title={<h1>Über Uns</h1>} title2={<p>A SUCCESSFUL TEAM BEATS WITH ONE HEART</p>} />

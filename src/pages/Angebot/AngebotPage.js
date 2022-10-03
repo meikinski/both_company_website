@@ -28,7 +28,7 @@ function Angebot() {
                 />
                 <meta
                     name="keywords"
-                    content="Workshop, Training, Köln, Persönlichkeitsentwicklung, DiSG"
+                    content="Workshop, DiSG, Weiterentwicklung, Training, Köln, Persönlichkeitsentwicklung"
                 />
             </Helmet>
         <Hero imageBlk={Workshop2} id="hero" title={<h1>Unser Angebot</h1>} title2={<p>Wie bin ich? Wie wirke ich? Wie handle ich? Und was bringt mir dieses Wissen im Arbeitsalltag?</p>} />

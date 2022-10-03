@@ -27,11 +27,11 @@ function Home() {
                 <title>Both: Cologne - Workshops und Trainings in Köln</title>
                 <meta
                     name="description"
-                    content="Workshops und Trainings auf Basis der DisG-Persönlichkeitsprofile in Köln. Lerne deine Stärken und Schwächen kennen und nutze dieses Wissen im Beruf und Alltag. "
+                    content="DiSG-Workshops und Trainings in Köln. Lerne deine Stärken und Schwächen kennen und nutze dieses Wissen im Beruf und Alltag. "
                 />
                 <meta
                     name="keywords"
-                    content="Workshop, Training, Köln, DisG, Persönlichkeitsentwicklung, Berufsalltag, Kommunikation, Potenziale"
+                    content="DiSG, Workshop, Training, Köln, Persönlichkeitsentwicklung, Weiterbildung, Kommunikationstraing, Potenziale"
                 />
             </Helmet>
         <Hero imageSrc={Cologne} title={<h1>Wir sind <br></br>both: cologne</h1>} description={<p>Workshops und Training auf Basis der DiSG&reg;-Persönlichkeitsprofile.</p>}/>
