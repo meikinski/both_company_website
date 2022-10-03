@@ -31,7 +31,7 @@ function Home() {
                 />
                 <meta
                     name="keywords"
-                    content="DiSG, Workshop, Training, Köln, Persönlichkeitsentwicklung, Weiterbildung, Kommunikationstraing, Potenziale"
+                    content="DiSG Köln, Workshop Köln, Training Köln, Köln, Persönlichkeitsentwicklung Köln, Weiterbildung, Kommunikationstraing, Potenziale"
                 />
             </Helmet>
         <Hero imageSrc={Cologne} title={<h1>Wir sind <br></br>both: cologne</h1>} description={<p>Workshops und Training auf Basis der DiSG&reg;-Persönlichkeitsprofile.</p>}/>
