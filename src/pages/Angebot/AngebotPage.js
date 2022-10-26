@@ -55,7 +55,7 @@ function Angebot() {
                 </div>
                 <div className="workshop_info_text">
                   
-                  <p>06.10.2022</p>
+                  <p>24.11.2022</p>
                 </div>
                 </div>
                 <div className="workshop_info_card">
