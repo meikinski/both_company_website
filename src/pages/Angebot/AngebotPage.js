@@ -155,7 +155,7 @@ Entscheidungsfindung.</li><br></br>
                     <img src={Uhr} alt="Uhr"/>
                   </div>
                   <div className="workshop_info_text">
-                  <p>17.30 - 21.30 Uhr</p>
+                  <p>Auf Anfrage</p>
                   </div>
                 </div>
                 <div className="workshop_info_card">
