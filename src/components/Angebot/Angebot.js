@@ -13,13 +13,13 @@ export const Angebot = ({ imageSrc, title }) => {
         <div className='angebot_section_content' id='angebot_content'>
             <h2 className='angebot_section_content_title'>{title}</h2>
                 <p>Du kennst deine Stärken und Schwächen im Arbeitskontext nicht oder nimmst sie für selbstverständlich?
-                </p>
+                <br></br></p>
                 <p>Du arbeitest im Vertrieb und möchtest deine Ansprechpartner:innen basierend auf ihren
 Persönlichkeitstypen direkt vom ersten Moment an überzeugen?
-                </p>
+<br></br></p>
                 <p>Du leitest ein Vertriebsteam und möchtest gemeinsam mit deinem Team lernen, das Verhalten von
 Kund:innen besser zu verstehen und effektiver zu kommunizieren?
-                </p>
+<br></br><br></br></p>
                 <p>In unseren Workshops lernst du die Grundlagen des DiSG®-Modells und wendest diese gleich auf
 konkrete Arbeitssituationen aus deinem Berufsalltag an.
                 </p>
