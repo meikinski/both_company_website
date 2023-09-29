@@ -65,7 +65,8 @@ Demo/Pitch) an.</li>
                 </div>
                 <div className="workshop_info_text">
                   
-                  <p>Auf Anfrage</p>
+                  <p>Donnerstag, 9.11.2023</p>
+                  <p>Dienstag, 21.11.2023</p>
                 </div>
                 </div>
                 <div className="workshop_info_card">
@@ -73,7 +74,7 @@ Demo/Pitch) an.</li>
                     <img src={Uhr} alt="Uhr"/>
                   </div>
                   <div className="workshop_info_text">
-                  <p>17.30 - 21.30 Uhr</p>
+                  <p>17.00 - 21.30 Uhr</p>
                   </div>
                 </div>
                 <div className="workshop_info_card">
@@ -81,8 +82,8 @@ Demo/Pitch) an.</li>
                     <img src={Kosten} alt="Kosten"/>
                   </div>
                   <div className="workshop_info_text"> 
-                  <p>129€ brutto</p>
-                  <p>inkl. Workbook</p>
+                  <p>Auf Anfrage</p>
+                  
                   </div>
                 </div>
               </div>
