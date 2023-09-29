@@ -11,7 +11,7 @@ import './Footer.css';
                 <br/>
                 <p>Genter Str. 19</p>
                 <p>50672 Köln</p>
-                <p><a href="tel: +49176995852">+49 176 – 99 58 85 52</a></p>
+                <p><a href="tel: +49176995852">+49 151 – 70 10 75 12</a></p>
                 <p><a href="mailto:info@both-cologne.de">info@both-cologne.de</a></p>
                 <p><NavLink className="navbar" to="/Impressum">Impressum</NavLink></p>
             </address>
