@@ -24,14 +24,14 @@ function Angebot() {
                 <title>Both: Cologne - Workshop</title>
                 <meta
                     name="description"
-                    content="In dem Workshop DiSG&amp;Me in Köln lernst du mehr über deinen Persönlichkeitstypen, deine Stärken und Schwächen kennen und wie du dieses Wissen im Berufsalltag einsetzen kannst. "
+                    content="Workshops und Training auf Basis der DiSG®-Persönlichkeitsprofile."
                 />
                 <meta
                     name="keywords"
                     content="Workshop Köln, DiSG Köln, Weiterentwicklung Köln, DiSG-Test Köln, Persönlichkeitsentwicklung Köln"
                 />
             </Helmet>
-        <Hero imageBlk={Workshop2} id="hero" title={<h1>Unser Angebot</h1>} title2={<p>Wie bin ich? Wie wirke ich? Wie handle ich? Und was bringt mir dieses Wissen im Arbeitsalltag?</p>} />
+        <Hero imageBlk={Workshop2} id="hero" title={<h1>Unser Angebot</h1>} title2={<p>Workshops und Training auf Basis der DiSG®-Persönlichkeitsprofile.</p>} />
         <div className="workshop_wrapper">
           <div className="workshop_section">
             <h2>Workshop: "DiSG® &amp; ME"</h2>
@@ -44,7 +44,7 @@ function Angebot() {
               <ul>
                 <li>&raquo; Du machst einen <b>DiSG®-Kurztest</b> und lernst mehr über deinen <b>Persönlichkeitstypen</b>, deine <b>Stärken</b> und deine <b>Schwächen</b> im Arbeitskontext.</li><br></br>
                 <li>&raquo; Wir sprechen über deine <b>Wirkung</b> auf andere und das <b>Zusammenspiel</b> mit anderen Persönlichkeitstypen</li><br></br>
-                <li>&raquo; Du wendest DiSG® auf Arbeitssituationen aus deinem und dem Berufsalltag der anderen Teilnehmer&Star;innen an.</li>
+                <li>&raquo; Du wendest DiSG® auf Arbeitssituationen aus deinem und dem Berufsalltag der anderen Teilnehmer*innen an.</li>
               </ul>
             </div>
           <div className="workshop_section_info">
@@ -55,7 +55,7 @@ function Angebot() {
                 </div>
                 <div className="workshop_info_text">
                   
-                  <p>24.11.2022</p>
+                  <p>Auf Anfrage</p>
                 </div>
                 </div>
                 <div className="workshop_info_card">
