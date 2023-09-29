@@ -33,6 +33,29 @@ function Angebot() {
             </Helmet>
         <Hero imageBlk={Workshop2} id="hero" title={<h1>Unser Angebot</h1>} title2={<p>Workshops und Training auf Basis der DiSG®-Persönlichkeitsprofile.</p>} />
         <div className="workshop_wrapper">
+        <div className="workshop_section">
+            <h2>Teamworkshop: "DiSG® &amp; Sales"</h2>
+              <p>Weiterbildungen für Soft Skills im Sales: Kundentypen erkennnen und so Ziele erreichen </p> 
+              <p>Dein Team soll lernen, das Verhalten von Kund:innen besser zu verstehen und effektiver zu
+kommunizieren?</p>
+              <p>Mit dem DiSG®-Persönlichkeitsmodell überzeugt ihr eure Ansprechpartner:innen basierend auf ihren
+Persönlichkeitstypen direkt vom ersten Moment an. Für eine schnelle Einschätzung des Gegenübers
+und einen überzeugenden Pitch.</p><br></br><br></br>
+              <p>Ein Teamworkshop bestehend aus einem Einstiegsimpuls und zwei Praxisparts, ganz konkret
+zugeschnitten auf euer Geschäftsmodell und euer Produkt.</p><br></br>
+<p>Ein Teamworkshop bestehend aus einem Einstiegsimpuls und zwei Praxisparts, ganz konkret
+zugeschnitten auf euer Geschäftsmodell und euer Produkt.</p>
+            <h3>Inhalt des Workshops:</h3>
+            <p>Im Teamworkshop "DiSG® &amp; Sales":</p> 
+              <ul>
+                <li>&raquo; lernt dein Team die Grundlagen des DiSG®-Modells: welche Persönlichkeitstypen gibt es, wie
+erkenne ich sie im Verkaufsgespräch und was brauchen sie von mir für ihre
+Entscheidungsfindung.</li><br></br>
+                <li>&raquo; wendet ihr im Team das DISG®-Modell direkt auf konkrete Situationen aus eurem Vertriebs-
+Alltag (Qualification Call, Discovery und Demo/Pitch) an.</li><br></br>
+                <li>&raquo; Die erarbeiteten Inhalte sind für euch direkt im Arbeitsalltag nutzbar.</li>
+              </ul>
+            </div>
           <div className="workshop_section">
             <h2>Workshop: "DiSG® &amp; ME"</h2>
               <p>In unserem Einsteigerworkshop <b>"DiSG® &amp; ME"</b> wollen wir folgende Fragen beantworten: Wie bin ich? Wie wirke ich? Wie handle ich? Und was bringt mir dieses Wissen im Arbeitsalltag? </p> 
