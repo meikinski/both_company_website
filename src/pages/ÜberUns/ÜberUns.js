@@ -115,7 +115,6 @@ function ÜberUns() {
 Transformationsberatung Prozesse für Unternehmen gestaltet; von co-kreativer Konzeption
 von Events bis hin zur langfristigen kommunikativen Beratung von Kund:innen in
 Transformationsprozessen.</p>
-              <br></br>
               <p>Inzwischen arbeite ich als selbstständige Eventregisseurin, Prozessgestalterin und Coachin,
 und coache Menschen und interdisziplinäre Teams, um gemeinsam gesteckte Ziele durch
 einen nachhaltigen, co-kreativen Arbeitsprozess zu erreichen.
