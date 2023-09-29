@@ -75,7 +75,7 @@ function ÜberUns() {
             </div>
             <div className="card_content">
               <h4>Antje Schüth</h4>
-              <h6>Co-Founder</h6>
+              <h6>Co-Founderin</h6>
               <p>„Ich bin begeistert und kreiere Ideen, um andere zu inspirieren und mitzureißen, das treibt mich an.“</p>
               <br></br>
               <button className="btn btn-4" id="#button_überuns" onClick={handleShowMoreAntje}>Mehr über mich</button>
@@ -100,7 +100,7 @@ function ÜberUns() {
             </div>
             <div className="card_content">
               <h4>Lena Bonato</h4>
-              <h6>Co-Founder</h6>
+              <h6>Co-Founderin</h6>
               <p>“Wir haben mehr Potenzial, als wir uns zutrauen oder zeigen. Sich gegenseitig fordern und fördern, das treibt mich an.“</p>
               <br></br>
               <button className="btn btn-4" onClick={handleShowMoreLena}>Mehr über mich</button>
@@ -109,17 +109,19 @@ function ÜberUns() {
               <ul>
                 <li>✓ Zertifizierte DiSG®-Trainerin</li>
                 <li>✓ Bachelor of Communication mit Schwerpunkt strategische Kommunikation in Groningen (NL), Göteborg (SWE) und Köln.</li>
-                <li>✓ Senior Projektleitung in der Kreativagentur onliveline – Büro für Konzept und Kommunikation (live, online, hybrid, VR).</li>
               </ul>
               <br></br>
-              <p>Seit 9 Jahren arbeite ich bei onliveline in der Kreation und Live-Kommunikationsberatung. Mein Schwerpunkt liegt hier vor allem auf dem Erzeugen von Inhalten - gemeinsam mit dem Kunden - und diese dann wirkungsvoll, verständlich und nachhaltig in Szene zu setzen.</p>
+              <p>Über 10 Jahren habe ich in einer renommierten Agentur für Konzeption, Inszenierung und
+Transformationsberatung Prozesse für Unternehmen gestaltet; von co-kreativer Konzeption
+von Events bis hin zur langfristigen kommunikativen Beratung von Kund:innen in
+Transformationsprozessen.</p>
               <br></br>
-              <p>In der Zusammenarbeit mit immer neuen und unterschiedlichen Kund*innen und
-                  Projektteams lege ich meinen Fokus vor allem auf eine transparente und offene Kommunikation und nutze das DiSG®-Tool, um meine Projektteam-Mitglieder in der
-                  Zusammenarbeit zu unterstützen, in dem ich eine gemeinsame Verständnisebene für die
-                  unterschiedlichen Persönlichkeiten im Team aufbaue.
-                  So kann ich zu einem effizienten Produktionsflow und einer guten Stimmung im Team
-                  beitragen.</p>
+              <p>Inzwischen arbeite ich als selbstständige Eventregisseurin, Prozessgestalterin und Coachin,
+und coache Menschen und interdisziplinäre Teams, um gemeinsam gesteckte Ziele durch
+einen nachhaltigen, co-kreativen Arbeitsprozess zu erreichen.
+Hierbei lege ich meinen Fokus vor allem auf eine offene und vertrauensvolle Kommunikation
+und nutze das DiSG®-Tool um eine gemeinsame Verständnisebene für die unterschiedlichen
+Persönlichkeiten in einem Team bzw. im Umfeld meiner Kund:innen aufzubauen.</p>
               <br></br>
               <p>&raquo; <b>Kernkompetenzen: Kreativität &amp; Pragmatismus</b></p></>)}
             </div>
